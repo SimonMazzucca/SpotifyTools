@@ -1,36 +1,23 @@
 ﻿using iTunesLib;
-using NUnit.Framework;
+using Microsoft.VisualStudio.TestTools.UnitTesting;
 using SpotifyToolsLib.iTunes;
 using System.Collections.Generic;
 using System.Diagnostics;
 
 namespace SpotifyToolsTests
 {
-    //[TestClass]
-    [TestFixture]
+    [TestClass]
+    //[TestFixture]
     public class iTunesAdapterTests
     {
-        [Test]
+        [TestMethod]
         public void TestMethod1()
         {
             iTunesAdapter ita = new iTunesAdapter();
-            IEnumerable<string> playlists = ita.GetPlaylists2();
+            IList<string> playlists = ita.GetPlaylists2();
 
-            Assert.AreEqual(1, 1);
+            Assert.IsTrue(true);
         }
-        [Test]
-        public void TestMethod2()
-        {
-            iTunesApp app = new iTunesApp();
-            IITSource library = app.Sources.ItemByName["Library"];
 
-            foreach (IITPlaylist item in library.Playlists)
-            {
-                Debug.WriteLine(item.Name);
-                //yield return item.Name;
-            }
-
-            Assert.AreEqual(1, 1);
-        }
     }
 }

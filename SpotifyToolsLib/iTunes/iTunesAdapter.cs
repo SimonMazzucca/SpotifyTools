@@ -1,6 +1,7 @@
 ﻿using iTunesLib;
 using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -16,16 +17,21 @@ namespace SpotifyToolsLib.iTunes
         /// The playlist will also be indexed in playlistLookupTable with IPlaylist as key and IITPlaylist as value for easy retrieval of iTunes COM objects.
         /// </remarks>
         /// <returns>An enumeration of all playlists in iTunes. </returns>
-        public IEnumerable<string> GetPlaylists2()
+        public IList<string> GetPlaylists2()
         {
+            IList<string> toReturn = new List<string>();
+            //Debug.Write("wtf");
             iTunesApp app = new iTunesApp();
             IITSource library = app.Sources.ItemByName["Library"];
 
             foreach (IITPlaylist item in library.Playlists)
             {
-                Console.WriteLine(item);
-                yield return item.Name;
+                Debug.WriteLine(item.Name);
+                //yield return item.Name;
+                toReturn.Add(item.Name);
             }
+
+            return toReturn;
         }
 
         public void Test2(string playlistName)

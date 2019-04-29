@@ -1,3 +1,11 @@
 1) Add Log4Net
 2) NUnit
 
+Skip default playlists:
+Library
+Music
+Movies
+TV Shows
+Podcasts
+Audiobooks
+Genius
