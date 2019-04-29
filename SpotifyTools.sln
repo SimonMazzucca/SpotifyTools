@@ -12,6 +12,7 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Documenation", "Documenation", "{4D8E133E-9EA3-472B-A83C-4DC1BCC694BA}"
 	ProjectSection(SolutionItems) = preProject
 		Documentation\Notes.txt = Documentation\Notes.txt
+		Documentation\NUnitErrorLog.txt = Documentation\NUnitErrorLog.txt
 		Documentation\Spotify.txt = Documentation\Spotify.txt
 		Documentation\TODO.txt = Documentation\TODO.txt
 	EndProjectSection
