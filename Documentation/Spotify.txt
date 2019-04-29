@@ -1,0 +1,12 @@
+Client ID 773d6796930f47ccbbc2a0b7a248f666
+Client Secret 6b5c0e0dda324a5382413c5bf72b07d1 
+
+
+Token Name: can be anything
+Auth URL: https://accounts.spotify.com/authorize
+Access Token URL: https://accounts.spotify.com/api/token
+Client ID: {{client_id}}
+Client Secret: {{client_secret}}
+Scope: playlist-read-private playlist-modify-private
+Grant Type: Authorization Code
+Request access token locally: Checked

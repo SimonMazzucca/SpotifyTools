@@ -1,13 +1,20 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.28803.202
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2046
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpotifyTools", "SpotifyTools\SpotifyTools.csproj", "{EA51631F-8751-478D-B626-A77130362412}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpotifyToolsLib", "SpotifyToolsLib\SpotifyToolsLib.csproj", "{8A427ADE-F0DF-48D6-856C-0EDA7BD68D53}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpotifyToolsTests", "SpotifyToolsTests\SpotifyToolsTests.csproj", "{8838BCD8-8727-4CDB-8186-740EF7C49922}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Documenation", "Documenation", "{4D8E133E-9EA3-472B-A83C-4DC1BCC694BA}"
+	ProjectSection(SolutionItems) = preProject
+		Documentation\Notes.txt = Documentation\Notes.txt
+		Documentation\Spotify.txt = Documentation\Spotify.txt
+		Documentation\TODO.txt = Documentation\TODO.txt
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

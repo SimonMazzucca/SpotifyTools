@@ -1,0 +1,30 @@
+//API's
+https://api.spotify.com/v1/users/simonmazzucca/playlists
+https://api.spotify.com/v1/me/playlists
+
+----------------------------------------------------------------------------------------------------
+
+//Guides
+https://developer.spotify.com/documentation/general/guides/app-settings/
+
+//Link with old URI
+https://developer.spotify.com/console/post-playlists/
+
+//Blog post with new URI
+https://developer.spotify.com/community/news/2018/06/12/changes-to-playlist-uris/
+
+//Dashboard
+https://developer.spotify.com/dashboard/applications/773d6796930f47ccbbc2a0b7a248f666
+
+//Localhost
+https://developer.spotify.com/documentation/web-api/quick-start/
+----------------------------------------------------------------------------------------------------
+
+//Web App
+https://open.spotify.com/collection/playlists
+
+----------------------------------------------------------------------------------------------------
+
+//Postman Tutorial
+https://blog.getpostman.com/2016/11/09/generate-spotify-playlists-using-a-postman-collection/
+
