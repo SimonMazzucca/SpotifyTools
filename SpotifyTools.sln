@@ -11,6 +11,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpotifyToolsTests", "Spotif
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Documenation", "Documenation", "{4D8E133E-9EA3-472B-A83C-4DC1BCC694BA}"
 	ProjectSection(SolutionItems) = preProject
+		Documentation\iTunes.txt = Documentation\iTunes.txt
 		Documentation\Notes.txt = Documentation\Notes.txt
 		Documentation\NUnitErrorLog.txt = Documentation\NUnitErrorLog.txt
 		Documentation\Spotify.txt = Documentation\Spotify.txt

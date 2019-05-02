@@ -54,6 +54,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="iTunes\iTunesAdapter.cs" />
+    <Compile Include="iTunes\Track.cs" />
+    <Compile Include="iTunes\Playlist.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
