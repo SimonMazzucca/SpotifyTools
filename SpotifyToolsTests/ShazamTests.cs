@@ -12,7 +12,7 @@ namespace SpotifyToolsTests
     {
 
         [Test]
-        public void GetMyShazamSongs()
+        public void TestShazamAdapter_GetMyShazamSongs()
         {
             string json = GetEmbeddedResourceFile("MyShazamSongs.json");
             ShazamAdapter shazam = new ShazamAdapter();
@@ -26,7 +26,7 @@ namespace SpotifyToolsTests
             string result;
 
             Assembly assembly = Assembly.GetExecutingAssembly();
-            string resourceName = "SpotifyToolsTests." + file;
+            string resourceName = "SpotifyToolsTests.Resources." + file;
 
             using (Stream stream = assembly.GetManifestResourceStream(resourceName))
             using (StreamReader reader = new StreamReader(stream))
