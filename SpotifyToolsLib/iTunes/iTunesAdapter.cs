@@ -1,4 +1,5 @@
 ﻿using iTunesLib;
+using SpotifyToolsLib.Spotify;
 using System.Collections.Generic;
 using System.Diagnostics;
 
@@ -10,13 +11,30 @@ namespace SpotifyToolsLib.iTunes
     /// </summary>
     public class iTunesAdapter
     {
+        public Playlist GetPlaylist(string name)
+        {
+            iTunesApp app = new iTunesApp();
+            IITSource library = app.Sources.ItemByName["Library"];
+            Playlist toReturn = null;
+
+            foreach (IITPlaylist item in library.Playlists)
+            {
+                if (item.Name == name)
+                {
+                    toReturn = new Playlist(name);
+                    foreach (IITTrack song in item.Tracks)
+                    {
+                        toReturn.AddSong(song.Name, song.Artist);
+                    }
+                }
+            }
+
+            return toReturn;
+        }
+
         /// <summary>
         /// Gets all playlists that are present in iTunes library.
         /// </summary>
-        /// <remarks>
-        /// The playlist will also be indexed in playlistLookupTable with IPlaylist as key and IITPlaylist as value for easy retrieval of iTunes COM objects.
-        /// </remarks>
-        /// <returns>An enumeration of all playlists in iTunes. </returns>
         public IList<string> GetPlaylists()
         {
             //Why does returning IEnumerable kill the Unit Test?

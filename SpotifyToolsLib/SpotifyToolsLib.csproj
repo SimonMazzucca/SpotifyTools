@@ -55,9 +55,9 @@
   <ItemGroup>
     <Compile Include="iTunes\iTunesAdapter.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Spotify\Playlist.cs" />
+    <Compile Include="Spotify\Song.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Spotify\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
