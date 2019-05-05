@@ -11,6 +11,10 @@ namespace SpotifyToolsLib.Spotify
             Songs = new List<Song>();
         }
 
+        public int iTunesPlaylistId { get; set; }
+        public int iTunesSourceId { get; set; }
+        public int iTunesCount { get; set; }
+
         public string Name { get; set; }
         public IList<Song> Songs { get; set; }
 

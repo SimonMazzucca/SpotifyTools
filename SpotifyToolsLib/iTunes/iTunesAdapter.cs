@@ -1,11 +1,6 @@
 ﻿using iTunesLib;
 using SpotifyToolsLib.Spotify;
 using System.Collections.Generic;
-using System.Diagnostics;
-
-
-using iTunesLib;
-using System.Collections.Generic;
 
 namespace SpotifyToolsLib.iTunes
 {
@@ -22,7 +17,10 @@ namespace SpotifyToolsLib.iTunes
             _iTunesSucks = new iTunesApp();
         }
 
-        public Spotify.Playlist GetPlaylist(string name)
+        /// <summary>
+        /// Names are not unique, so not use I can use this
+        /// </summary>
+        public Spotify.Playlist GetPlaylistByName(string name)
         {
             iTunesApp app = new iTunesApp();
             IITSource library = app.Sources.ItemByName["Library"];
@@ -43,7 +41,10 @@ namespace SpotifyToolsLib.iTunes
             return toReturn;
         }
 
-
+        /// <summary>
+        /// Resturns a light version of all playlists
+        /// </summary>
+        /// <returns></returns>
         public IList<Playlist> GetPlaylists()
         {
             //Why does returning IEnumerable kill the Unit Test?
@@ -52,12 +53,11 @@ namespace SpotifyToolsLib.iTunes
 
             foreach (IITPlaylist item in library.Playlists)
             {
-                Playlist playlist = new Playlist()
+                Playlist playlist = new Playlist(item.Name)
                 {
-                    SourceId = item.sourceID,
-                    PlaylistId = item.playlistID,
-                    Name = item.Name,
-                    Count = item.Tracks.Count,
+                    iTunesSourceId = item.sourceID,
+                    iTunesPlaylistId = item.playlistID,
+                    iTunesCount = item.Tracks.Count,
                 };
                 toReturn.Add(playlist);
             }
@@ -65,23 +65,26 @@ namespace SpotifyToolsLib.iTunes
             return toReturn;
         }
 
-        //Change to load method?
-        public Playlist GetPlaylistDetails(Playlist playlist)
+        public void LoadPlaylist(Playlist playlist)
         {
-            IITObject playlistObject = _iTunesSucks.GetITObjectByID(playlist.SourceId, playlist.PlaylistId, 0, 0);
+            IITObject playlistObject = _iTunesSucks.GetITObjectByID(playlist.iTunesSourceId, playlist.iTunesPlaylistId, 0, 0);
             IITPlaylist iTunesPlaylist = (IITPlaylist)playlistObject;
 
-            foreach (IITTrack iTunesTrack in iTunesPlaylist.Tracks)
+            if (playlistObject != null)
             {
-                Track track = new Track()
+                playlist.Name = iTunesPlaylist.Name;
+                foreach (IITTrack iTunesTrack in iTunesPlaylist.Tracks)
                 {
-                    Name = iTunesTrack.Name,
-                    Artist = iTunesTrack.Artist,
-                };
+                    Song track = new Song()
+                    {
+                        Name = iTunesTrack.Name,
+                        Artist = iTunesTrack.Artist,
+                    };
 
-                playlist.Tracks.Add(track);
+                    playlist.Songs.Add(track);
+                }
             }
-            return playlist;
+
         }
     }
 }

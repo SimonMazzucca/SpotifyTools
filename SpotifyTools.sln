@@ -13,7 +13,6 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Documenation", "Documenatio
 	ProjectSection(SolutionItems) = preProject
 		Documentation\iTunes.txt = Documentation\iTunes.txt
 		Documentation\Notes.txt = Documentation\Notes.txt
-		Documentation\NUnitErrorLog.txt = Documentation\NUnitErrorLog.txt
 		Documentation\Spotify APIs.docx = Documentation\Spotify APIs.docx
 		Documentation\Spotify.jpg = Documentation\Spotify.jpg
 		Documentation\Spotify.txt = Documentation\Spotify.txt

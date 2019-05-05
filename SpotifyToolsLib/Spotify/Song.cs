@@ -2,6 +2,10 @@
 {
     public class Song
     {
+        public Song()
+        {
+
+        }
         public Song(string name, string artist)
         {
             Name = name;

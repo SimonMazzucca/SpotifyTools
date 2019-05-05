@@ -10,4 +10,10 @@ Podcasts
 Audiobooks
 Genius
 
-Idea: create playlist from Shazam!
+Support following inputs:
+- iTunes
+- Shazam
+- CVS/XLXS
+
+Database
+- Log all imports ?
