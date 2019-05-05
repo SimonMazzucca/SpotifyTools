@@ -10,3 +10,31 @@ Client Secret: {{client_secret}}
 Scope: playlist-read-private playlist-modify-private
 Grant Type: Authorization Code
 Request access token locally: Checked
+
+----------------------------------------------------------------------------------------------------
+
+URL: https://api.spotify.com/v1/me/playlists
+
+Headers:
+Accept:application/json
+Authorization:Bearer {{authorization}}
+Content-Type:application/json
+
+Body:
+{
+  "name": "Test1",
+  "public": false
+}
+
+----------------------------------------------------------------------------------------------------
+
+URL: https://api.spotify.com/v1/artists/0OdUWJ0sBjDrqHygGUXeCF
+
+Headers:
+Accept:application/json
+Authorization:Bearer {{authorization}}
+
+Body:
+
+
+----------------------------------------------------------------------------------------------------

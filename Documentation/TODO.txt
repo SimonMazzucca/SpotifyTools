@@ -9,3 +9,5 @@ TV Shows
 Podcasts
 Audiobooks
 Genius
+
+Idea: create playlist from Shazam!
