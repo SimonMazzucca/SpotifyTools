@@ -14,7 +14,7 @@ namespace SpotifyToolsTests
             iTunesAdapter ita = new iTunesAdapter();
             IList<Playlist> playlists = ita.GetPlaylists();
 
-            var rating = playlists.FirstOrDefault(p => p.Name == "00 - All");
+            Playlist testPlaylist = playlists.FirstOrDefault(p => p.Name == "TestPlaylist");
             Assert.IsTrue(true);
         }
 
@@ -24,13 +24,23 @@ namespace SpotifyToolsTests
             iTunesAdapter ita = new iTunesAdapter();
             Playlist playlist = new Playlist()
             {
-                SourceId = 75,
-                PlaylistId = 216150,
+                SourceId = 77,
+                PlaylistId = 153915,
             };
             playlist = ita.GetPlaylistDetails(playlist);
 
             Assert.IsTrue(true);
         }
+
+        [Test]
+        public void GetPlaylistByName()
+        {
+            iTunesAdapter ita = new iTunesAdapter();
+            SpotifyToolsLib.Spotify.Playlist playlist = ita.GetPlaylist("TestPlaylist");
+
+            Assert.IsTrue(playlist != null);
+        }
+
 
     }
 }

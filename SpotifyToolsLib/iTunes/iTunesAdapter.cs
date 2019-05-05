@@ -1,4 +1,10 @@
 ﻿using iTunesLib;
+using SpotifyToolsLib.Spotify;
+using System.Collections.Generic;
+using System.Diagnostics;
+
+
+using iTunesLib;
 using System.Collections.Generic;
 
 namespace SpotifyToolsLib.iTunes
@@ -15,6 +21,28 @@ namespace SpotifyToolsLib.iTunes
         {
             _iTunesSucks = new iTunesApp();
         }
+
+        public Spotify.Playlist GetPlaylist(string name)
+        {
+            iTunesApp app = new iTunesApp();
+            IITSource library = app.Sources.ItemByName["Library"];
+            Spotify.Playlist toReturn = null;
+
+            foreach (IITPlaylist item in library.Playlists)
+            {
+                if (item.Name == name)
+                {
+                    toReturn = new Spotify.Playlist(name);
+                    foreach (IITTrack song in item.Tracks)
+                    {
+                        toReturn.AddSong(song.Name, song.Artist);
+                    }
+                }
+            }
+
+            return toReturn;
+        }
+
 
         public IList<Playlist> GetPlaylists()
         {
