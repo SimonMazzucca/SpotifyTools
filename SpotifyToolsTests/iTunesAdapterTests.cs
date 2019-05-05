@@ -1,14 +1,14 @@
-﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
+﻿using NUnit.Framework;
 using SpotifyToolsLib.iTunes;
 using SpotifyToolsLib.Spotify;
 using System.Collections.Generic;
 
 namespace SpotifyToolsTests
 {
-    [TestClass]
+    [TestFixture]
     public class iTunesAdapterTests
     {
-        [TestMethod]
+        [Test]
         public void GetAllPlaylists()
         {
             iTunesAdapter ita = new iTunesAdapter();
@@ -17,7 +17,7 @@ namespace SpotifyToolsTests
             Assert.IsTrue(playlists.Count > 0);
         }
 
-        [TestMethod]
+        [Test]
         public void GetPlaylistByName()
         {
             iTunesAdapter ita = new iTunesAdapter();
