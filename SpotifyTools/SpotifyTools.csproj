@@ -52,5 +52,11 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\SpotifyToolsLib\SpotifyToolsLib.csproj">
+      <Project>{8A427ADE-F0DF-48D6-856C-0EDA7BD68D53}</Project>
+      <Name>SpotifyToolsLib</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

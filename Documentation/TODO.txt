@@ -17,3 +17,4 @@ Support following inputs:
 
 Database
 - Log all imports ?
+- Use to check if songs are in Spotify ?

@@ -1,10 +1,5 @@
-﻿using iTunesLib;
+﻿using SpotifyToolsLib.Spotify;
 using System;
-using System.Collections.Generic;
-using System.Diagnostics;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace SpotifyTools
 {
@@ -12,15 +7,19 @@ namespace SpotifyTools
     {
         static void Main(string[] args)
         {
-            iTunesApp app = new iTunesApp();
-            IITSource library = app.Sources.ItemByName["Library"];
 
-            foreach (IITPlaylist item in library.Playlists)
+            try
             {
-                Debug.WriteLine(item.Name);
-                //yield return item.Name;
+                SpotifyAdapter spotify = new SpotifyAdapter();
+                spotify.CreatePlaylistAsync("Test1");
+                Console.WriteLine("Done.");
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex);
             }
 
+            Console.ReadLine();
         }
     }
 }
