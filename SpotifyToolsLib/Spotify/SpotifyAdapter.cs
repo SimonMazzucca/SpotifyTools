@@ -3,18 +3,13 @@ using System.Threading.Tasks;
 
 namespace SpotifyToolsLib.Spotify
 {
-    public class SpotifyAdapter
+    public class SpotifyAdapter : BaseAdapter
     {
-        private readonly ISettingsFacade _SettingsFacade;
-        public Settings Settings { get; }
-
-        public SpotifyAdapter(ISettingsFacade settingsFacade)
+        public SpotifyAdapter() : base()
         {
-            _SettingsFacade = settingsFacade;
-            Settings = _SettingsFacade.GetSettings();
         }
 
-        public SpotifyAdapter() : this(new SettingsFacade())
+        public SpotifyAdapter(ISettingsFacade settingsFacade) : base(settingsFacade)
         {
         }
 

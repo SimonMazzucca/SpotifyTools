@@ -7,20 +7,13 @@ using System.Threading.Tasks;
 
 namespace SpotifyToolsLib.Shazam
 {
-    public class ShazamAdapter
+    public class ShazamAdapter : BaseAdapter
     {
-
-        //TODO: factor out to base adapter
-        private readonly ISettingsFacade _SettingsFacade;
-        public Settings Settings { get; }
-
-        public ShazamAdapter(ISettingsFacade settingsFacade)
+        public ShazamAdapter() : base()
         {
-            _SettingsFacade = settingsFacade;
-            Settings = _SettingsFacade.GetSettings();
         }
 
-        public ShazamAdapter() : this(new SettingsFacade())
+        public ShazamAdapter(ISettingsFacade settingsFacade) : base(settingsFacade)
         {
         }
 

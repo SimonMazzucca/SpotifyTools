@@ -1,5 +1,6 @@
 ﻿using iTunesLib;
 using SpotifyToolsLib.Spotify;
+using SpotifyToolsLib.Utilities;
 using System.Collections.Generic;
 
 namespace SpotifyToolsLib.iTunes
@@ -8,11 +9,16 @@ namespace SpotifyToolsLib.iTunes
     /// <summary>
     /// More shit: https://csharp.hotexamples.com/examples/-/iTunesApp/-/php-itunesapp-class-examples.html
     /// </summary>
-    public class iTunesAdapter
+    public class iTunesAdapter : BaseAdapter
     {
         private readonly iTunesApp _iTunesSucks;
 
-        public iTunesAdapter()
+        public iTunesAdapter() : base()
+        {
+            _iTunesSucks = new iTunesApp();
+        }
+
+        public iTunesAdapter(ISettingsFacade settingsFacade) : base(settingsFacade)
         {
             _iTunesSucks = new iTunesApp();
         }

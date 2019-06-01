@@ -10,9 +10,7 @@ namespace SpotifyTools
 
             try
             {
-                SpotifyAdapter spotify = new SpotifyAdapter();
-                spotify.CreatePlaylistAsync("Test1");
-                Console.WriteLine("Done.");
+                Console.WriteLine("Nothing to see here... YET!");
             }
             catch (Exception ex)
             {
