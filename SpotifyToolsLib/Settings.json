@@ -1,0 +1,17 @@
+﻿{
+  "Spotify": {
+    "ApiBaseUrl": "https://api.spotify.com/v1",
+    "AuthKeyUrl": "https://accounts.spotify.com/api/token",
+    "AuthToken": {
+      "AccessToken": "BQBY6dGQbO0LfG8QWuvG0GOra0vvbMZA2LuvzcNfRLNPW_GclnPHkFrmvUkgGhUjrxPlIBe2vhkUrbGjUDYngcY7IIwAXc7rDHkcSJv1-AbUoI0gVjJrokSzzlQHz1W3rZkcC6ZKKktudoGCAZm5JccCgPWRG1EisBmlo5LDpkcckQoBR52tBvqgHXZaMv7J0BE",
+      "ExpiresOn": "06/02/2019",
+      "RefreshToken": "AQA2ZIFTqStc0xhQopWQVxKG-PBVXAaBMA7lgjlH-vqwUnA4lvrGUzjBMJlXrzdS-SaCyyo-L4SqU9v9wddV-Nw6HPbbp66dOqPBAwsjlmLckNnAwz5lYAA5lIWi9GWtP9yc6A",
+      "TokenType": "Bearer"
+    },
+    "UserId": "simonmazzucca@hotmail.com",
+    "ClientId": "773d6796930f47ccbbc2a0b7a248f666"
+  },
+  "Shazam": {
+    "BaseUrl": "https://www.shazam.com"
+  }
+}

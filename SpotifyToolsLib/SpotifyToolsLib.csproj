@@ -68,6 +68,7 @@
     <Compile Include="Spotify\Song.cs" />
     <Compile Include="Spotify\SpotifyAdapter.cs" />
     <Compile Include="Spotify\SpotifyModel\accesstoken.cs" />
+    <Compile Include="Spotify\SpotifyModel\artist.cs" />
     <Compile Include="Spotify\SpotifyModel\user.cs" />
     <Compile Include="Spotify\User.cs" />
     <Compile Include="Utilities\ISettingsFacade.cs" />
@@ -78,6 +79,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
+    <EmbeddedResource Include="Settings.json" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
