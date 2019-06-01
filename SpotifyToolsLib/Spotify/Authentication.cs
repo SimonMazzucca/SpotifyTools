@@ -1,5 +1,6 @@
 ﻿using Newtonsoft.Json;
 using SpotifyToolsLib.Spotify.SpotifyModel;
+using SpotifyToolsLib.Utilities;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 

@@ -63,7 +63,8 @@
     <Compile Include="Spotify\Authentication.cs" />
     <Compile Include="Spotify\AuthenticationToken.cs" />
     <Compile Include="Spotify\BaseModel.cs" />
-    <Compile Include="Spotify\HttpHelper.cs" />
+    <Compile Include="Spotify\SpotifyModel\ResponseError.cs" />
+    <Compile Include="Utilities\HttpHelper.cs" />
     <Compile Include="Spotify\Playlist.cs" />
     <Compile Include="Spotify\Song.cs" />
     <Compile Include="Spotify\SpotifyAdapter.cs" />

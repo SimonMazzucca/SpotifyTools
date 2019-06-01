@@ -3,7 +3,7 @@
     "ApiBaseUrl": "https://api.spotify.com/v1",
     "AuthKeyUrl": "https://accounts.spotify.com/api/token",
     "AuthToken": {
-      "AccessToken": "BQBY6dGQbO0LfG8QWuvG0GOra0vvbMZA2LuvzcNfRLNPW_GclnPHkFrmvUkgGhUjrxPlIBe2vhkUrbGjUDYngcY7IIwAXc7rDHkcSJv1-AbUoI0gVjJrokSzzlQHz1W3rZkcC6ZKKktudoGCAZm5JccCgPWRG1EisBmlo5LDpkcckQoBR52tBvqgHXZaMv7J0BE",
+      "AccessToken": "BQD1jtll9pJxeEi94fqR-331j6RVs-OqnZv2FmLGYWQrh4YJsr4HMGSv5VTsWTGbLz65zLPF6_q55PoYzPDemHLsdGy7xGtB8T2yWz3HqTX_DPvYATDff-QhZdbk0h5U1uWxJB_hHnxIqHFnb-WV_asLdHqa8pnE3Z1-pqIvAlm4p1vz3DIQzgy_2-9-DBn1kqU",
       "ExpiresOn": "06/02/2019",
       "RefreshToken": "AQA2ZIFTqStc0xhQopWQVxKG-PBVXAaBMA7lgjlH-vqwUnA4lvrGUzjBMJlXrzdS-SaCyyo-L4SqU9v9wddV-Nw6HPbbp66dOqPBAwsjlmLckNnAwz5lYAA5lIWi9GWtP9yc6A",
       "TokenType": "Bearer"
@@ -12,6 +12,8 @@
     "ClientId": "773d6796930f47ccbbc2a0b7a248f666"
   },
   "Shazam": {
-    "BaseUrl": "https://www.shazam.com"
+    "BaseUrl": "https://www.shazam.com",
+    "MyShazam": "https://www.shazam.com/discovery/v4/en-US/US/web/-/tag/51E5A250-3C5D-4CC4-9C7B-D823B44F8D2B",
+    "Cookie": "geoip_country=US; geoip_lat=40.781; geoip_long=-73.950; _ga=GA1.2.2050609134.1556977896; _gid=GA1.2.1037496073.1556977896; codever=a3b24bf8dd173c25455e66889c37ad7c243ed3b86e19264428aa18f5fcc5c2056470d48ac550b819bd752d1c11a6482a6d5be6dbc8c991b8172aefc8c0a9bf9576007ba17e51301cca04e87a5817938d9a4cee36093740d580baf0d61278f82b6096d715129826f83d9f0c8d23d798d0ddd35856c200d9d704cba7a20e6e3e577b00b17efebe727bb6ca2880e35ff25932feda680a4124d2c6a4; _gat=1"
   }
 }

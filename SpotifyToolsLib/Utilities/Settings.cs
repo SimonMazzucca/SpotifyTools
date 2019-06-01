@@ -27,6 +27,8 @@ namespace SpotifyToolsLib.Utilities
         public class ShazamSettings
         {
             public string BaseUrl { get; set; }
+            public string MyShazam { get; set; }
+            public string Cookie { get; set; }
         }
 
     }

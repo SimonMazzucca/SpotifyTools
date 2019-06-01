@@ -1,12 +1,11 @@
-﻿using System;
+﻿using SpotifyToolsLib.Spotify;
 using System.Collections.Generic;
 using System.Linq;
 using System.Net.Http;
 using System.Net.Http.Headers;
-using System.Text;
 using System.Threading.Tasks;
 
-namespace SpotifyToolsLib.Spotify
+namespace SpotifyToolsLib.Utilities
 {
     /// <summary>
     /// A helper class used as an interface for common HttpClient commands
@@ -16,13 +15,33 @@ namespace SpotifyToolsLib.Spotify
         /// <summary>
         /// Downloads a url and reads its contents as a string using the get method
         /// </summary>
-        /// <param name="url"></param>
-        /// <returns></returns>
         public static async Task<string> Get(string url)
         {
-            HttpClient client = new HttpClient();
-            var httpResponse = await client.GetAsync(url);
-            return await httpResponse.Content.ReadAsStringAsync();
+            using (HttpClientHandler handler = new HttpClientHandler { UseCookies = false })
+            {
+                HttpClient client = new HttpClient(handler);
+                HttpResponseMessage httpResponse = await client.GetAsync(url);
+                return await httpResponse.Content.ReadAsStringAsync();
+            }
+        }
+
+        /// <summary>
+        /// Below method puts cookie in header (UseCookies = false)
+        /// https://stackoverflow.com/questions/12373738/how-do-i-set-a-cookie-on-httpclients-httprequestmessage
+        /// </summary>
+        public static async Task<string> Get(string url, IDictionary<string, string> headers)
+        {
+            using (HttpClientHandler handler = new HttpClientHandler { UseCookies = false })
+            {
+                HttpClient client = new HttpClient(handler);
+                foreach (string key in headers.Keys)
+                {
+                    client.DefaultRequestHeaders.Add(key, headers[key]);
+                }
+
+                HttpResponseMessage httpResponse = await client.GetAsync(url);
+                return await httpResponse.Content.ReadAsStringAsync();
+            }
         }
 
         /// <summary>

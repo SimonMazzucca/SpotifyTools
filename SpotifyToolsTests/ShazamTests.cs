@@ -12,9 +12,9 @@ namespace SpotifyToolsTests
         [Test]
         public void TestShazamAdapter_GetMyShazamSongs()
         {
-            string json = GetResourceFileContent("MyShazamSongs.json");
+            //string json = GetResourceFileContent("MyShazamSongs.json");
             ShazamAdapter shazam = new ShazamAdapter();
-            IList<Song> songs = shazam.GetMyShazamSongs(json);
+            IList<Song> songs = shazam.GetMyShazamSongs();
 
             Assert.IsTrue(songs.Count > 0);
         }

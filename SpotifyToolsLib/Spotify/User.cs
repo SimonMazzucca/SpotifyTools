@@ -1,6 +1,6 @@
 ﻿using Newtonsoft.Json;
 using SpotifyToolsLib.Spotify.SpotifyModel;
-//using SpotifyWebAPI.SpotifyModel;
+using SpotifyToolsLib.Utilities;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -89,10 +89,10 @@ namespace SpotifyToolsLib.Spotify
         {
             var json = await HttpHelper.Get("https://api.spotify.com/v1/users/" + userId);
             var obj = JsonConvert.DeserializeObject<user>(json, new JsonSerializerSettings
-                {
-                    TypeNameHandling = TypeNameHandling.All,
-                    TypeNameAssemblyFormat = System.Runtime.Serialization.Formatters.FormatterAssemblyStyle.Simple
-                });
+            {
+                TypeNameHandling = TypeNameHandling.All,
+                TypeNameAssemblyFormat = System.Runtime.Serialization.Formatters.FormatterAssemblyStyle.Simple
+            });
 
             return obj.ToPOCO();
         }
@@ -103,14 +103,27 @@ namespace SpotifyToolsLib.Spotify
         /// <param name="userId"></param>
         public async static Task<User> GetCurrentUserProfile(AuthenticationToken token)
         {
-            var json = await HttpHelper.Get("https://api.spotify.com/v1/me", token);
-            var obj = JsonConvert.DeserializeObject<user>(json, new JsonSerializerSettings
-                {
-                    TypeNameHandling = TypeNameHandling.All,
-                    TypeNameAssemblyFormat = System.Runtime.Serialization.Formatters.FormatterAssemblyStyle.Simple
-                });
+            string json = await HttpHelper.Get("https://api.spotify.com/v1/me", token);
+            CheckForExpiredToken(json);
+            user toReturn = JsonConvert.DeserializeObject<user>(json, new JsonSerializerSettings
+            {
+                TypeNameHandling = TypeNameHandling.All,
+                TypeNameAssemblyFormat = System.Runtime.Serialization.Formatters.FormatterAssemblyStyle.Simple
+            });
 
-            return obj.ToPOCO();
+            return toReturn.ToPOCO();
+        }
+
+        private static void CheckForExpiredToken(string json)
+        {
+            ResponseError responseError = JsonConvert.DeserializeObject<ResponseError>(json);
+
+            if (responseError != null && responseError.error != null)
+            {
+                string message = string.Format("{0}: {1}", responseError.error.status, responseError.error.message);
+                throw new Exception(message);
+            };
+
         }
 
         /// <summary>
@@ -186,10 +199,10 @@ namespace SpotifyToolsLib.Spotify
             string tracksUri = CreateCommaSeperatedList(trackIds);
             var json = await HttpHelper.Get("https://api.spotify.com/v1/me/tracks/contains?ids=" + tracksUri, token);
             var obj = JsonConvert.DeserializeObject(json, new JsonSerializerSettings
-                {
-                    TypeNameHandling = TypeNameHandling.All,
-                    TypeNameAssemblyFormat = System.Runtime.Serialization.Formatters.FormatterAssemblyStyle.Simple
-                });
+            {
+                TypeNameHandling = TypeNameHandling.All,
+                TypeNameAssemblyFormat = System.Runtime.Serialization.Formatters.FormatterAssemblyStyle.Simple
+            });
 
             return Convert.ToBoolean(obj.ToString().Replace("{", string.Empty).Replace("[", string.Empty).Replace("}", string.Empty).Replace("]", string.Empty).Trim());
         }
