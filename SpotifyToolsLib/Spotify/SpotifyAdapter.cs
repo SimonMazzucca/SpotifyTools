@@ -1,4 +1,7 @@
-﻿using SpotifyToolsLib.Utilities;
+﻿using Newtonsoft.Json;
+using SpotifyToolsLib.Spotify.SpotifyModel;
+using SpotifyToolsLib.Utilities;
+using System;
 using System.Threading.Tasks;
 
 namespace SpotifyToolsLib.Spotify
@@ -13,6 +16,7 @@ namespace SpotifyToolsLib.Spotify
         {
         }
 
+        //TODO: use Settings directly
         public AuthenticationToken AuthenticationToken
         {
             get
@@ -34,12 +38,41 @@ namespace SpotifyToolsLib.Spotify
             }
         }
 
-        public async Task<bool> CreatePlaylistAsync(string name)
-        {
-            User user = await User.GetCurrentUserProfile(this.AuthenticationToken);
 
-            return true;
+        //TODO: remove all TypeNameAssemblyFormat
+        public async Task<playlist> CreatePlaylist(string name, bool isPublic)
+        {
+
+            dynamic postData = new System.Dynamic.ExpandoObject();
+            postData.name = name;
+            postData.@public = isPublic;
+
+            string jsonInput = JsonConvert.SerializeObject(postData);
+            string json = await HttpHelper.Post("https://api.spotify.com/v1/me/playlists", this.AuthenticationToken, jsonInput);
+            CheckForExpiredToken(json);
+
+            playlist toReturn = JsonConvert.DeserializeObject<playlist>(json, new JsonSerializerSettings
+            {
+                TypeNameHandling = TypeNameHandling.All,
+                TypeNameAssemblyFormat = System.Runtime.Serialization.Formatters.FormatterAssemblyStyle.Simple
+            });
+
+            return toReturn;
         }
+
+        //TODO: refactor 
+        private static void CheckForExpiredToken(string json)
+        {
+            ResponseError responseError = JsonConvert.DeserializeObject<ResponseError>(json);
+
+            if (responseError != null && responseError.error != null)
+            {
+                string message = string.Format("{0}: {1}", responseError.error.status, responseError.error.message);
+                throw new Exception(message);
+            };
+
+        }
+
 
         public async Task<User> GetCurrentUser()
         {

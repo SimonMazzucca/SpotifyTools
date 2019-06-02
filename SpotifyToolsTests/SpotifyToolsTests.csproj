@@ -60,6 +60,7 @@
     <Compile Include="BaseTester.cs" />
     <Compile Include="iTunesAdapterTests.cs" />
     <Compile Include="Mocks\MockFileAccess.cs" />
+    <Compile Include="PlaylistRepoTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SettingsTests.cs" />
     <Compile Include="ShazamTests.cs" />
@@ -73,7 +74,12 @@
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Resources\MyShazamSongs.json" />
-    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\ITunes_Playlist.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\Basic_Playlist.txt" />
   </ItemGroup>
   <Import Project="$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets" Condition="Exists('$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets')" />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

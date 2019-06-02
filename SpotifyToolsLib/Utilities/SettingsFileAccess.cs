@@ -18,7 +18,7 @@ namespace SpotifyToolsLib.Utilities
 
         private string GetResourceFileContent(string filename)
         {
-            Assembly assembly = Assembly.GetAssembly(typeof(SpotifyToolsLib.Utilities.Settings));
+            Assembly assembly = Assembly.GetAssembly(typeof(Settings));
 
             string[] resources = assembly.GetManifestResourceNames();
             string resource = resources.FirstOrDefault(r => r.EndsWith("." + filename));

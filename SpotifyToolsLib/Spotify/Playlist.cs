@@ -3,6 +3,8 @@ using System.Collections.Generic;
 
 namespace SpotifyToolsLib.Spotify
 {
+
+    //TODO: either consolidate playlists or name accordingly
     public class Playlist
     {
         public Playlist(string name)

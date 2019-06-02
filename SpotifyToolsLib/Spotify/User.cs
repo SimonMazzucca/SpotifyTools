@@ -3,8 +3,6 @@ using SpotifyToolsLib.Spotify.SpotifyModel;
 using SpotifyToolsLib.Utilities;
 using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 using System.Threading.Tasks;
 
 namespace SpotifyToolsLib.Spotify
