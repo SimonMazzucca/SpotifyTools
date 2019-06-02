@@ -1,6 +1,6 @@
 ﻿namespace SpotifyToolsLib.Spotify.SpotifyModel
 {
-    public class playlist
+    public class SpotifyPlaylist
     {
         public bool collaborative { get; set; }
         public string description { get; set; }
@@ -10,9 +10,9 @@
         public string id { get; set; }
         //public image[] images { get; set; }
         public string name { get; set; }
-        public user owner { get; set; }
+        public SpotifyUser owner { get; set; }
         public bool? @public { get; set; }
-        //public page<playlisttrack> tracks { get; set; }
+        public SpotifyPage<SpotifyPlaylistTrack> tracks { get; set; }
         public string type { get; set; }
         public string uri { get; set; }
 

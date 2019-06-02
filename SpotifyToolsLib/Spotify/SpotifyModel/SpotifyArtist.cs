@@ -1,6 +1,6 @@
 ﻿namespace SpotifyToolsLib.Spotify.SpotifyModel
 {
-    public class artist
+    public class SpotifyArtist
     {
         public External_Urls external_urls { get; set; }
         public Followers followers { get; set; }

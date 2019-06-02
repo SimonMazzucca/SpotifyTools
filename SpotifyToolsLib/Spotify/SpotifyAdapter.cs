@@ -38,7 +38,7 @@ namespace SpotifyToolsLib.Spotify
             }
         }
 
-        public async Task<playlist> CreatePlaylist(string name, bool isPublic)
+        public async Task<SpotifyPlaylist> CreatePlaylist(string name, bool isPublic)
         {
 
             dynamic postData = new System.Dynamic.ExpandoObject();
@@ -49,7 +49,7 @@ namespace SpotifyToolsLib.Spotify
             string json = await HttpHelper.Post("https://api.spotify.com/v1/me/playlists", this.AuthenticationToken, jsonInput);
             CheckForExpiredToken(json);
 
-            playlist toReturn = JsonConvert.DeserializeObject<playlist>(json, new JsonSerializerSettings());
+            SpotifyPlaylist toReturn = JsonConvert.DeserializeObject<SpotifyPlaylist>(json, new JsonSerializerSettings());
 
             return toReturn;
         }

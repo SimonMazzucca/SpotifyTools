@@ -3,7 +3,7 @@
 namespace SpotifyToolsLib.Spotify.SpotifyModel
 {
     [JsonObject]
-    public class user
+    public class SpotifyUser
     {
         public string country { get; set; }
         public string display_name { get; set; }
