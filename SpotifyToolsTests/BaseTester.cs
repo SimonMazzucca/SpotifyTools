@@ -7,6 +7,16 @@ namespace SpotifyToolsTests
 {
     public abstract class BaseTester
     {
+        protected static string GetFullPath(string filename)
+        {
+            string appPath = System.Reflection.Assembly.GetExecutingAssembly().CodeBase;
+            string binFolder = Path.GetDirectoryName(appPath);
+            string playlistFile = binFolder.
+                Replace(@"\bin\Debug", @"\Resources\" + filename).
+                Replace(@"file:\", "");
+
+            return playlistFile;
+        }
 
         protected string GetResourceFileContent(string filename)
         {

@@ -38,8 +38,6 @@ namespace SpotifyToolsLib.Spotify
             }
         }
 
-
-        //TODO: remove all TypeNameAssemblyFormat
         public async Task<playlist> CreatePlaylist(string name, bool isPublic)
         {
 

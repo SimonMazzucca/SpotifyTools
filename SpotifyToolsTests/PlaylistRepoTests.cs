@@ -43,15 +43,5 @@ namespace SpotifyToolsTests
 
         }
 
-        //TODO: Share among test classes
-        private static string GetFullPath(string filename)
-        {
-            string binFolder = Path.GetDirectoryName(TestContext.CurrentContext.TestDirectory);
-            string playlistFile = binFolder.Replace(@"\bin", @"\Resources\" + filename);
-            return playlistFile;
-        }
-
-
-
     }
 }
