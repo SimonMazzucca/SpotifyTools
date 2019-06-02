@@ -1,7 +1,9 @@
-﻿namespace SpotifyToolsLib.Repositories
+﻿using SpotifyToolsLib.Spotify;
+
+namespace SpotifyToolsLib.Repositories
 {
     public interface IPlaylistRepo
     {
-        SongList GetSongList(string source);
+        Playlist GetSongList(string source);
     }
 }

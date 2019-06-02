@@ -68,7 +68,6 @@
     <Compile Include="Repositories\ITunesExportPlaylistRepo.cs" />
     <Compile Include="Repositories\CsvPlaylistRepo.cs" />
     <Compile Include="Repositories\IPlaylistRepo.cs" />
-    <Compile Include="Repositories\SongList.cs" />
     <Compile Include="Shazam\MyShazamSongs.cs" />
     <Compile Include="Shazam\ShazamAdapter.cs" />
     <Compile Include="Spotify\Authentication.cs" />

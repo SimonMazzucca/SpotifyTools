@@ -1,4 +1,5 @@
 ﻿using CsvHelper;
+using SpotifyToolsLib.Spotify;
 using System.Collections.Generic;
 using System.IO;
 
@@ -10,9 +11,9 @@ namespace SpotifyToolsLib.Repositories
 
         public virtual string Delimiter => ",";
 
-        public SongList GetSongList(string source)
+        public Playlist GetSongList(string source)
         {
-            SongList toReturn = new SongList();
+            Playlist toReturn = new Playlist(source);
 
             using (StreamReader reader = new StreamReader(source))
             using (CsvReader csv = new CsvReader(reader))
@@ -24,7 +25,7 @@ namespace SpotifyToolsLib.Repositories
 
                 foreach (Song song in records)
                 {
-                    toReturn.Add(song);
+                    toReturn.Songs.Add(song);
                 }
             }
 

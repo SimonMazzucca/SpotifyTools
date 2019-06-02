@@ -1,5 +1,6 @@
 ﻿using NUnit.Framework;
 using SpotifyToolsLib.Repositories;
+using SpotifyToolsLib.Spotify;
 using System.IO;
 
 namespace SpotifyToolsTests
@@ -20,7 +21,7 @@ namespace SpotifyToolsTests
             string playlistFile = GetFullPath("Basic_Playlist.txt");
 
             CsvPlaylistRepo repo = new CsvPlaylistRepo();
-            SongList songList = repo.GetSongList(playlistFile);
+            Playlist songList = repo.GetSongList(playlistFile);
 
             Assert.AreEqual(3, songList.Count);
 
@@ -37,7 +38,7 @@ namespace SpotifyToolsTests
             string playlistFile = GetFullPath("ITunes_Playlist.txt");
 
             ITunesExportPlaylistRepo repo = new ITunesExportPlaylistRepo();
-            SongList songList = repo.GetSongList(playlistFile);
+            Playlist songList = repo.GetSongList(playlistFile);
 
             Assert.AreEqual(9, songList.Count);
 

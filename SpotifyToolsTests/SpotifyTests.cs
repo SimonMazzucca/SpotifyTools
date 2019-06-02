@@ -26,13 +26,13 @@ namespace SpotifyToolsTests
         {
             string playlistFile = GetFullPath("Basic_Playlist.txt");
             CsvPlaylistRepo repo = new CsvPlaylistRepo();
-            SongList songList = repo.GetSongList(playlistFile);
+            Playlist songsToImport = repo.GetSongList(playlistFile);
 
             SpotifyAdapter spotify = new SpotifyAdapter(new SettingsFacade());
-            Task<SpotifyPlaylist> result = spotify.CreatePlaylist("Test", false);
-            SpotifyPlaylist p = result.Result;
+            Task<SpotifyPlaylist> playlistCreated = spotify.CreatePlaylist("Test", false);
+            //SpotifyPlaylist p = playlistCreated.Result;
 
-            Assert.AreEqual("Test", p.name);
+            Assert.AreEqual("Test", playlistCreated.Result.name);
         }
 
     }

@@ -17,6 +17,13 @@ namespace SpotifyToolsLib.Spotify
         public int iTunesSourceId { get; set; }
         public int iTunesCount { get; set; }
 
+        public int Count {
+            get
+            {
+                return iTunesCount;
+            }
+        }
+
         public string Name { get; set; }
         public IList<Song> Songs { get; set; }
 
