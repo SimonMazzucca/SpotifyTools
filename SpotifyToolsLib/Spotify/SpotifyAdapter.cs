@@ -51,11 +51,7 @@ namespace SpotifyToolsLib.Spotify
             string json = await HttpHelper.Post("https://api.spotify.com/v1/me/playlists", this.AuthenticationToken, jsonInput);
             CheckForExpiredToken(json);
 
-            playlist toReturn = JsonConvert.DeserializeObject<playlist>(json, new JsonSerializerSettings
-            {
-                TypeNameHandling = TypeNameHandling.All,
-                TypeNameAssemblyFormat = System.Runtime.Serialization.Formatters.FormatterAssemblyStyle.Simple
-            });
+            playlist toReturn = JsonConvert.DeserializeObject<playlist>(json, new JsonSerializerSettings());
 
             return toReturn;
         }

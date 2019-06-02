@@ -86,11 +86,7 @@ namespace SpotifyToolsLib.Spotify
         public async static Task<User> GetUser(string userId)
         {
             var json = await HttpHelper.Get("https://api.spotify.com/v1/users/" + userId);
-            var obj = JsonConvert.DeserializeObject<user>(json, new JsonSerializerSettings
-            {
-                TypeNameHandling = TypeNameHandling.All,
-                TypeNameAssemblyFormat = System.Runtime.Serialization.Formatters.FormatterAssemblyStyle.Simple
-            });
+            var obj = JsonConvert.DeserializeObject<user>(json, new JsonSerializerSettings());
 
             return obj.ToPOCO();
         }
@@ -103,11 +99,7 @@ namespace SpotifyToolsLib.Spotify
         {
             string json = await HttpHelper.Get("https://api.spotify.com/v1/me", token);
             CheckForExpiredToken(json);
-            user toReturn = JsonConvert.DeserializeObject<user>(json, new JsonSerializerSettings
-            {
-                TypeNameHandling = TypeNameHandling.All,
-                TypeNameAssemblyFormat = System.Runtime.Serialization.Formatters.FormatterAssemblyStyle.Simple
-            });
+            user toReturn = JsonConvert.DeserializeObject<user>(json, new JsonSerializerSettings());
 
             return toReturn.ToPOCO();
         }
@@ -196,11 +188,7 @@ namespace SpotifyToolsLib.Spotify
         {
             string tracksUri = CreateCommaSeperatedList(trackIds);
             var json = await HttpHelper.Get("https://api.spotify.com/v1/me/tracks/contains?ids=" + tracksUri, token);
-            var obj = JsonConvert.DeserializeObject(json, new JsonSerializerSettings
-            {
-                TypeNameHandling = TypeNameHandling.All,
-                TypeNameAssemblyFormat = System.Runtime.Serialization.Formatters.FormatterAssemblyStyle.Simple
-            });
+            var obj = JsonConvert.DeserializeObject(json, new JsonSerializerSettings());
 
             return Convert.ToBoolean(obj.ToString().Replace("{", string.Empty).Replace("[", string.Empty).Replace("}", string.Empty).Replace("]", string.Empty).Trim());
         }
