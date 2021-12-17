@@ -10,6 +10,7 @@ namespace SpotifyToolsTests
     [TestFixture]
     public class SpotifyTests : BaseTester
     {
+        private const string PLAYLIST_TO_CREATE = "FromUnitTests";
 
         [Test]
         public void TestSpotifyAdapter_BasicConnectivity()
@@ -21,7 +22,6 @@ namespace SpotifyToolsTests
         }
 
         [Test]
-        [Ignore("")]
         public void TestSpotifyAdapter_CreatePlaylistFromCsvFileAsync()
         {
             string playlistFile = GetFullPath("Basic_Playlist.txt");
@@ -29,10 +29,27 @@ namespace SpotifyToolsTests
             Playlist songsToImport = repo.GetSongList(playlistFile);
 
             SpotifyAdapter spotify = new SpotifyAdapter(new SettingsFacade());
-            Task<SpotifyPlaylist> playlistCreated = spotify.CreatePlaylist("Test", false);
-            //SpotifyPlaylist p = playlistCreated.Result;
 
-            Assert.AreEqual("Test", playlistCreated.Result.name);
+            if (spotify.PlaylistExists(PLAYLIST_TO_CREATE))
+            {
+                Assert.Inconclusive();
+            }
+            else
+            {
+                Task<SpotifyPlaylist> playlistCreated = spotify.CreatePlaylist(PLAYLIST_TO_CREATE, false);
+                SpotifyPlaylist p = playlistCreated.Result;
+
+                Assert.AreEqual(PLAYLIST_TO_CREATE, playlistCreated.Result.name);
+            }
+        }
+
+        [Test]
+        public void TestSpotifyAdapter_CheckIfPlaylistExists()
+        {
+            SpotifyAdapter spotify = new SpotifyAdapter(new SettingsFacade());
+            bool exists = spotify.PlaylistExists("Podcasts");
+
+            Assert.IsTrue(exists);
         }
 
     }

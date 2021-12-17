@@ -2,10 +2,16 @@
 using SpotifyToolsLib.Spotify.SpotifyModel;
 using SpotifyToolsLib.Utilities;
 using System;
+using System.Linq;
+using System.Collections.Generic;
 using System.Threading.Tasks;
 
 namespace SpotifyToolsLib.Spotify
 {
+
+    /// <summary>
+    /// https://developer.spotify.com/console/playlists/
+    /// </summary>
     public class SpotifyAdapter : BaseAdapter
     {
         public SpotifyAdapter() : base()
@@ -38,9 +44,35 @@ namespace SpotifyToolsLib.Spotify
             }
         }
 
+        public bool PlaylistExists(string name)
+        {
+            List<SpotifyPlaylist> all = GetAllPlaylists().Result;
+            var found = all.FirstOrDefault(p => p.name.Equals(name));
+
+            return found != null;
+        }
+
+        /// <summary>
+        /// https://developer.spotify.com/console/get-current-user-playlists/
+        /// 
+        /// TODO: add iteration for accounts with more than 50 playlists
+        /// </summary>
+        public async Task<List<SpotifyPlaylist>> GetAllPlaylists()
+        {
+            string json = await HttpHelper.Get("https://api.spotify.com/v1/me/playlists", this.AuthenticationToken, true);
+            CheckForExpiredToken(json);
+
+            Console.WriteLine(json);
+
+            SpotifyPlaylistCollection partial = JsonConvert.DeserializeObject<SpotifyPlaylistCollection>(json, new JsonSerializerSettings());
+            List<SpotifyPlaylist> toReturn = new List<SpotifyPlaylist>(partial.items);
+
+            Console.WriteLine("Playlists found: {0}", toReturn.Count);
+            return toReturn;
+        }
+
         public async Task<SpotifyPlaylist> CreatePlaylist(string name, bool isPublic)
         {
-
             dynamic postData = new System.Dynamic.ExpandoObject();
             postData.name = name;
             postData.@public = isPublic;

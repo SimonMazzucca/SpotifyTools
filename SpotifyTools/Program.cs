@@ -1,5 +1,4 @@
-﻿using SpotifyToolsLib.Spotify;
-using System;
+﻿using System;
 
 namespace SpotifyTools
 {
@@ -10,13 +9,15 @@ namespace SpotifyTools
 
             try
             {
-                Console.WriteLine("Nothing to see here... YET!");
+                Runner runner = new Runner();
+                runner.Run();
             }
             catch (Exception ex)
             {
                 Console.WriteLine(ex);
             }
 
+            Console.WriteLine("Done");
             Console.ReadLine();
         }
     }

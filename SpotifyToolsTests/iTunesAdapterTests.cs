@@ -28,23 +28,17 @@ namespace SpotifyToolsTests
 
             IList<Playlist> playlists = ita.GetPlaylists();
             Playlist testPlaylist = playlists.FirstOrDefault(p => p.Name == TEST_PLAYLIST);
+            ita.LoadPlaylist(testPlaylist);
 
-            Playlist playlist = new Playlist("")
-            {
-                iTunesSourceId = testPlaylist.iTunesSourceId,
-                iTunesPlaylistId = testPlaylist.iTunesPlaylistId,
-            };
-            ita.LoadPlaylist(playlist);
-
-            Assert.IsNotNull(playlist.Name);
-            Assert.IsTrue(playlist.Songs.Count > 0);
+            Assert.IsNotNull(testPlaylist.Name);
+            Assert.IsTrue(testPlaylist.Songs.Count > 0);
         }
 
         [Test]
         public void TestiTunesAdapter_GetPlaylistByName()
         {
             iTunesAdapter ita = new iTunesAdapter();
-            SpotifyToolsLib.Spotify.Playlist playlist = ita.GetPlaylistByName(TEST_PLAYLIST);
+            Playlist playlist = ita.GetPlaylistByName(TEST_PLAYLIST);
 
             Assert.IsTrue(playlist != null);
         }

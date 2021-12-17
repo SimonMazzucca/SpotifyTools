@@ -74,6 +74,7 @@
     <Compile Include="Spotify\AuthenticationToken.cs" />
     <Compile Include="Spotify\BaseModel.cs" />
     <Compile Include="Spotify\SpotifyModel\SpotifyPage.cs" />
+    <Compile Include="Spotify\SpotifyModel\SpotifyPlaylistCollection.cs" />
     <Compile Include="Spotify\SpotifyModel\SpotifyPlaylistTrack.cs" />
     <Compile Include="Spotify\SpotifyModel\SpotifyPlaylist.cs" />
     <Compile Include="Spotify\SpotifyModel\ResponseError.cs" />
