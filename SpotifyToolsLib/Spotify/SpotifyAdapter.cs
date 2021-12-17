@@ -44,12 +44,35 @@ namespace SpotifyToolsLib.Spotify
             }
         }
 
+        /// <summary>
+        /// TODO:
+        /// - Logic to get track info and build URI array
+        /// </summary>
+        public async Task<bool> AddSongsToPlaylist(SpotifyPlaylist playlist, IList<Song> songs)
+        {
+            dynamic postData = new System.Dynamic.ExpandoObject();
+            postData.uris = new string[] { "spotify:track:4iV5W9uYEdYUVa79Axb7Rh", "spotify:track:1301WleyT98MSxVHPZCA6M", "spotify:episode:512ojhOuo1ktJprKbVcKyQ" };
+
+            string header = JsonConvert.SerializeObject(postData);
+            string url = string.Format("https://api.spotify.com/v1/playlists/{0}/tracks", playlist.id);
+            string json = await HttpHelper.Post(url, this.AuthenticationToken, header);
+            CheckForResponseErrors(json);
+
+            return true;
+        }
+
         public bool PlaylistExists(string name)
         {
-            List<SpotifyPlaylist> all = GetAllPlaylists().Result;
-            var found = all.FirstOrDefault(p => p.name.Equals(name));
-
+            SpotifyPlaylist found = GetPlaylist(name);
             return found != null;
+        }
+
+        public SpotifyPlaylist GetPlaylist(string name)
+        {
+            List<SpotifyPlaylist> all = GetAllPlaylists().Result;
+            SpotifyPlaylist toReturn = all.FirstOrDefault(p => p.name.Equals(name));
+
+            return toReturn;
         }
 
         /// <summary>
@@ -60,7 +83,7 @@ namespace SpotifyToolsLib.Spotify
         public async Task<List<SpotifyPlaylist>> GetAllPlaylists()
         {
             string json = await HttpHelper.Get("https://api.spotify.com/v1/me/playlists", this.AuthenticationToken, true);
-            CheckForExpiredToken(json);
+            CheckForResponseErrors(json);
 
             Console.WriteLine(json);
 
@@ -77,9 +100,9 @@ namespace SpotifyToolsLib.Spotify
             postData.name = name;
             postData.@public = isPublic;
 
-            string jsonInput = JsonConvert.SerializeObject(postData);
-            string json = await HttpHelper.Post("https://api.spotify.com/v1/me/playlists", this.AuthenticationToken, jsonInput);
-            CheckForExpiredToken(json);
+            string header = JsonConvert.SerializeObject(postData);
+            string json = await HttpHelper.Post("https://api.spotify.com/v1/me/playlists", this.AuthenticationToken, header);
+            CheckForResponseErrors(json);
 
             SpotifyPlaylist toReturn = JsonConvert.DeserializeObject<SpotifyPlaylist>(json, new JsonSerializerSettings());
 
@@ -87,7 +110,7 @@ namespace SpotifyToolsLib.Spotify
         }
 
         //TODO: refactor 
-        private static void CheckForExpiredToken(string json)
+        private static void CheckForResponseErrors(string json)
         {
             ResponseError responseError = JsonConvert.DeserializeObject<ResponseError>(json);
 
