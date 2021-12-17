@@ -3,9 +3,9 @@
     "ApiBaseUrl": "https://api.spotify.com/v1",
     "AuthKeyUrl": "https://accounts.spotify.com/api/token",
     "AuthToken": {
-      "AccessToken": "BQCWBVJrdfR8ALqYkEpqudfQvzarunrSDjRt28NUBBeUXDDZ23gaNeNSR1PsDKuwYUlJviPAe-jdhPQC8Hb9ZfLtXuhPXTiyNVmmO1Xf14J_afNLRrMg3Q6dTFDUa5Ophz1haIGCNRwt3yknbNUU-W5L4jwNSiGhlflu5gtT4-Re99e8OA2zayArGJFT2wF1iSk",
+      "AccessToken": "BQCeQO4TJO__pIGw6z4YnItSywU0xVuLjMyd8fl8agauYkk34jbH4_x23vMxS3PViZ0251yhdetp6lPNV9CNDrJStLOy14HXxe0SqBUDJXUvEbBj7_mgJseLb9_nvnUeW9aILjrqxVR5m_GPfkBvQ8S8yQrWnhaypD23vZWu7FDvnzwvsPyVWMTaLuRonaDy",
       "ExpiresOn": "06/02/2019",
-      "RefreshToken": "AQA2ZIFTqStc0xhQopWQVxKG-PBVXAaBMA7lgjlH-vqwUnA4lvrGUzjBMJlXrzdS-SaCyyo-L4SqU9v9wddV-Nw6HPbbp66dOqPBAwsjlmLckNnAwz5lYAA5lIWi9GWtP9yc6A",
+      "RefreshToken": "AQCLNRxThboAXZ20Jyd4Iiwdf3oTo0EG6z8vIziMEwjyAYnh_VFoiptSg6UhsSRcvvwSPAPi6pXZCIgnUlDDIlirczte8aydmHrW9X85PXznDBkwO7ZjNGXVymWvu-mv6GQ",
       "TokenType": "Bearer"
     },
     "UserId": "simonmazzucca@hotmail.com",

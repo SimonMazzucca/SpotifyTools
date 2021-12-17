@@ -10,6 +10,8 @@ namespace SpotifyToolsTests
     {
 
         [Test]
+        [Ignore("Not needed anymore")]
+
         public void TestShazamAdapter_GetMyShazamSongs()
         {
             //string json = GetResourceFileContent("MyShazamSongs.json");

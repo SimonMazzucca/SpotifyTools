@@ -1,5 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 
 namespace SpotifyToolsLib.Spotify
 {
@@ -16,13 +15,6 @@ namespace SpotifyToolsLib.Spotify
         public int iTunesPlaylistId { get; set; }
         public int iTunesSourceId { get; set; }
         public int iTunesCount { get; set; }
-
-        public int Count {
-            get
-            {
-                return iTunesCount;
-            }
-        }
 
         public string Name { get; set; }
         public IList<Song> Songs { get; set; }

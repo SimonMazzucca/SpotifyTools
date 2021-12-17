@@ -11,7 +11,7 @@ namespace SpotifyToolsTests
         //ITunes_Playlist_1995.txt
 
         /// <summary>
-        /// Basi Playlist
+        /// Basic Playlist
         /// Separator: comma
         /// Header: Name, Artist
         /// </summary>
@@ -23,12 +23,12 @@ namespace SpotifyToolsTests
             CsvPlaylistRepo repo = new CsvPlaylistRepo();
             Playlist songList = repo.GetSongList(playlistFile);
 
-            Assert.AreEqual(3, songList.Count);
+            Assert.AreEqual(3, songList.Songs.Count);
 
         }
 
         /// <summary>
-        /// Basi Playlist
+        /// Basic Playlist
         /// Separator: tab
         /// Header: many
         /// </summary>
@@ -40,7 +40,7 @@ namespace SpotifyToolsTests
             ITunesExportPlaylistRepo repo = new ITunesExportPlaylistRepo();
             Playlist songList = repo.GetSongList(playlistFile);
 
-            Assert.AreEqual(9, songList.Count);
+            Assert.AreEqual(9, songList.Songs.Count);
 
         }
 
