@@ -44,14 +44,24 @@ namespace SpotifyToolsLib.Spotify
             }
         }
 
-        /// <summary>
-        /// TODO:
-        /// - Logic to get track info and build URI array
-        /// </summary>
         public async Task<bool> AddSongsToPlaylist(SpotifyPlaylist playlist, IList<Song> songs)
         {
+            List<string> songUris = new List<string>();
+
+            foreach (Song song in songs)
+            {
+                string songUri = GetSongUri(song).Result;
+                if (string.IsNullOrEmpty(songUri))
+                {
+                    Console.WriteLine("Song not found: {0} - {1}", song.Artist, song.Name);
+                }
+                else
+                {
+                    songUris.Add(songUri);
+                }
+            }
             dynamic postData = new System.Dynamic.ExpandoObject();
-            postData.uris = new string[] { "spotify:track:4iV5W9uYEdYUVa79Axb7Rh", "spotify:track:1301WleyT98MSxVHPZCA6M", "spotify:episode:512ojhOuo1ktJprKbVcKyQ" };
+            postData.uris = songUris.ToArray();
 
             string header = JsonConvert.SerializeObject(postData);
             string url = string.Format("https://api.spotify.com/v1/playlists/{0}/tracks", playlist.id);
@@ -59,6 +69,24 @@ namespace SpotifyToolsLib.Spotify
             CheckForResponseErrors(json);
 
             return true;
+        }
+
+        private async Task<string> GetSongUri(Song song)
+        {
+            string url = string.Format("https://api.spotify.com/v1/search?q={0}&type=track", song.Query);
+            string json = await HttpHelper.Get(url, this.AuthenticationToken, true);
+            CheckForResponseErrors(json);
+
+            Console.WriteLine(json);
+
+            SpotifyTracks response = JsonConvert.DeserializeObject<SpotifyTracks>(json, new JsonSerializerSettings());
+
+            // Assuming item 0 is the one with highest popularity
+            Item[] songsFound = response?.tracks?.items;
+            if (songsFound == null || songsFound.Length == 0)
+                return "";
+            else 
+                return songsFound[0].uri;
         }
 
         public bool PlaylistExists(string name)

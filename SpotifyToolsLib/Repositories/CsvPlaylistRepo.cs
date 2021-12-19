@@ -11,6 +11,10 @@ namespace SpotifyToolsLib.Repositories
 
         public virtual string Delimiter => ",";
 
+        /// <summary>
+        /// Note: this below did not work. Return same (last) record multiple times.
+        /// IEnumerable<Song> records = csv.EnumerateRecords(songRecord);
+        /// </summary>
         public Playlist GetSongList(string source)
         {
             Playlist toReturn = new Playlist(source);
@@ -20,10 +24,9 @@ namespace SpotifyToolsLib.Repositories
             {
                 csv.Configuration.Delimiter = Delimiter;
 
-                Song songRecord = new Song();
-                IEnumerable<Song> records = csv.EnumerateRecords(songRecord);
+                IEnumerable<Song> songs = csv.GetRecords<Song>();
 
-                foreach (Song song in records)
+                foreach (Song song in songs)
                 {
                     toReturn.Songs.Add(song);
                 }
@@ -31,6 +34,5 @@ namespace SpotifyToolsLib.Repositories
 
             return toReturn;
         }
-
     }
 }

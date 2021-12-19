@@ -24,7 +24,7 @@ namespace SpotifyToolsLib.Spotify
             postData.Add("client_secret", ClientSecret);
 
             var json = await HttpHelper.Post("https://accounts.spotify.com/api/token", postData);
-            var obj = JsonConvert.DeserializeObject<accesstoken>(json, new JsonSerializerSettings());
+            var obj = JsonConvert.DeserializeObject<AcessToken>(json, new JsonSerializerSettings());
 
             return obj.ToPOCO();
         }

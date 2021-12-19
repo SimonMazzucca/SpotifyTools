@@ -2,7 +2,7 @@
 
 namespace SpotifyToolsLib.Spotify.SpotifyModel
 {
-    public class accesstoken
+    public class AcessToken
     {
         public string access_token { get; set; }
         public string token_type { get; set; }
