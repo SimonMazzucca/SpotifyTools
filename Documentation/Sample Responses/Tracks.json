@@ -1,0 +1,793 @@
+{
+  "href" : "https://api.spotify.com/v1/users/simonmazzucca/playlists?offset=0&limit=20",
+  "items" : [ {
+    "collaborative" : false,
+    "description" : "",
+    "external_urls" : {
+      "spotify" : "https://open.spotify.com/playlist/0PeEGDZnCfiwt7GS7hASzG"
+    },
+    "href" : "https://api.spotify.com/v1/playlists/0PeEGDZnCfiwt7GS7hASzG",
+    "id" : "0PeEGDZnCfiwt7GS7hASzG",
+    "images" : [ ],
+    "name" : "FromUnitTests",
+    "owner" : {
+      "display_name" : "Simon Mazzucca",
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/user/simonmazzucca"
+      },
+      "href" : "https://api.spotify.com/v1/users/simonmazzucca",
+      "id" : "simonmazzucca",
+      "type" : "user",
+      "uri" : "spotify:user:simonmazzucca"
+    },
+    "primary_color" : null,
+    "public" : false,
+    "snapshot_id" : "MSw2ZTQ3ZjQ3MzViMjdhNjc3YzQzZjE1YjMwZjQwZmJlZTM0YmIzYTM5",
+    "tracks" : {
+      "href" : "https://api.spotify.com/v1/playlists/0PeEGDZnCfiwt7GS7hASzG/tracks",
+      "total" : 0
+    },
+    "type" : "playlist",
+    "uri" : "spotify:playlist:0PeEGDZnCfiwt7GS7hASzG"
+  }, {
+    "collaborative" : false,
+    "description" : "",
+    "external_urls" : {
+      "spotify" : "https://open.spotify.com/playlist/2usckZbFuIfB7PoUjD8Jt4"
+    },
+    "href" : "https://api.spotify.com/v1/playlists/2usckZbFuIfB7PoUjD8Jt4",
+    "id" : "2usckZbFuIfB7PoUjD8Jt4",
+    "images" : [ {
+      "height" : 640,
+      "url" : "https://mosaic.scdn.co/640/ab67616d0000b27340eea368f4fb5f5ee6dcd9a8ab67616d0000b2737e0dea0c3a0bf7c6820306c9ab67616d0000b273be07f53692eb777dcb4ca560ab67616d0000b273db5c821755ea8ba3fe05d123",
+      "width" : 640
+    }, {
+      "height" : 300,
+      "url" : "https://mosaic.scdn.co/300/ab67616d0000b27340eea368f4fb5f5ee6dcd9a8ab67616d0000b2737e0dea0c3a0bf7c6820306c9ab67616d0000b273be07f53692eb777dcb4ca560ab67616d0000b273db5c821755ea8ba3fe05d123",
+      "width" : 300
+    }, {
+      "height" : 60,
+      "url" : "https://mosaic.scdn.co/60/ab67616d0000b27340eea368f4fb5f5ee6dcd9a8ab67616d0000b2737e0dea0c3a0bf7c6820306c9ab67616d0000b273be07f53692eb777dcb4ca560ab67616d0000b273db5c821755ea8ba3fe05d123",
+      "width" : 60
+    } ],
+    "name" : "All music",
+    "owner" : {
+      "display_name" : "Tom",
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/user/9z6oknbo5ygr81861wa65m6xs"
+      },
+      "href" : "https://api.spotify.com/v1/users/9z6oknbo5ygr81861wa65m6xs",
+      "id" : "9z6oknbo5ygr81861wa65m6xs",
+      "type" : "user",
+      "uri" : "spotify:user:9z6oknbo5ygr81861wa65m6xs"
+    },
+    "primary_color" : null,
+    "public" : false,
+    "snapshot_id" : "NTE1LDFlNDI2NGI0ZWQwMTJhN2IwNjAyMzI3NzAyYTVhYTdkYjk3NTc4NjI=",
+    "tracks" : {
+      "href" : "https://api.spotify.com/v1/playlists/2usckZbFuIfB7PoUjD8Jt4/tracks",
+      "total" : 500
+    },
+    "type" : "playlist",
+    "uri" : "spotify:playlist:2usckZbFuIfB7PoUjD8Jt4"
+  }, {
+    "collaborative" : false,
+    "description" : "Created by Shazam. Made for you. Songs are automatically added to this playlist each time you Shazam.",
+    "external_urls" : {
+      "spotify" : "https://open.spotify.com/playlist/293SiXauUd46PiRKsdMWEm"
+    },
+    "href" : "https://api.spotify.com/v1/playlists/293SiXauUd46PiRKsdMWEm",
+    "id" : "293SiXauUd46PiRKsdMWEm",
+    "images" : [ {
+      "height" : 640,
+      "url" : "https://mosaic.scdn.co/640/ab67616d0000b27333733085a70a5fa56623f8eaab67616d0000b2735d183234c89b07357e04c58cab67616d0000b273b0c0201a8796d8a536253a61ab67616d0000b273e419ccba0baa8bd3f3d7abf2",
+      "width" : 640
+    }, {
+      "height" : 300,
+      "url" : "https://mosaic.scdn.co/300/ab67616d0000b27333733085a70a5fa56623f8eaab67616d0000b2735d183234c89b07357e04c58cab67616d0000b273b0c0201a8796d8a536253a61ab67616d0000b273e419ccba0baa8bd3f3d7abf2",
+      "width" : 300
+    }, {
+      "height" : 60,
+      "url" : "https://mosaic.scdn.co/60/ab67616d0000b27333733085a70a5fa56623f8eaab67616d0000b2735d183234c89b07357e04c58cab67616d0000b273b0c0201a8796d8a536253a61ab67616d0000b273e419ccba0baa8bd3f3d7abf2",
+      "width" : 60
+    } ],
+    "name" : "My Shazam Tracks",
+    "owner" : {
+      "display_name" : "Simon Mazzucca",
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/user/simonmazzucca"
+      },
+      "href" : "https://api.spotify.com/v1/users/simonmazzucca",
+      "id" : "simonmazzucca",
+      "type" : "user",
+      "uri" : "spotify:user:simonmazzucca"
+    },
+    "primary_color" : null,
+    "public" : false,
+    "snapshot_id" : "MTAzLGY3MWY5Mzg0YTQwZGY0NzkyMDA0MThkZWUyOTAwNTdiODYwMjA4ZGY=",
+    "tracks" : {
+      "href" : "https://api.spotify.com/v1/playlists/293SiXauUd46PiRKsdMWEm/tracks",
+      "total" : 13
+    },
+    "type" : "playlist",
+    "uri" : "spotify:playlist:293SiXauUd46PiRKsdMWEm"
+  }, {
+    "collaborative" : false,
+    "description" : "",
+    "external_urls" : {
+      "spotify" : "https://open.spotify.com/playlist/6Bvsbrhj5EBvJjehX6ki2x"
+    },
+    "href" : "https://api.spotify.com/v1/playlists/6Bvsbrhj5EBvJjehX6ki2x",
+    "id" : "6Bvsbrhj5EBvJjehX6ki2x",
+    "images" : [ {
+      "height" : 640,
+      "url" : "https://mosaic.scdn.co/640/ab6765630000ba8a3c68b6d29ba270d4178f7ea9ab6765630000ba8a4f5fb3219f0dacc692019f09ab6765630000ba8af55bb2f4e8b7e0e2bf18184ffd81d581a19cc7e62e4c047f9401aef68b58f016",
+      "width" : 640
+    }, {
+      "height" : 300,
+      "url" : "https://mosaic.scdn.co/300/ab6765630000ba8a3c68b6d29ba270d4178f7ea9ab6765630000ba8a4f5fb3219f0dacc692019f09ab6765630000ba8af55bb2f4e8b7e0e2bf18184ffd81d581a19cc7e62e4c047f9401aef68b58f016",
+      "width" : 300
+    }, {
+      "height" : 60,
+      "url" : "https://mosaic.scdn.co/60/ab6765630000ba8a3c68b6d29ba270d4178f7ea9ab6765630000ba8a4f5fb3219f0dacc692019f09ab6765630000ba8af55bb2f4e8b7e0e2bf18184ffd81d581a19cc7e62e4c047f9401aef68b58f016",
+      "width" : 60
+    } ],
+    "name" : "Podcasts",
+    "owner" : {
+      "display_name" : "Simon Mazzucca",
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/user/simonmazzucca"
+      },
+      "href" : "https://api.spotify.com/v1/users/simonmazzucca",
+      "id" : "simonmazzucca",
+      "type" : "user",
+      "uri" : "spotify:user:simonmazzucca"
+    },
+    "primary_color" : null,
+    "public" : false,
+    "snapshot_id" : "MzI3LDU2YzM4OTA0ZDBmNzhlNGQ0ZmU1OWVhNzYxYzI5ZGM3ZjQ1Yzg1Y2Y=",
+    "tracks" : {
+      "href" : "https://api.spotify.com/v1/playlists/6Bvsbrhj5EBvJjehX6ki2x/tracks",
+      "total" : 11
+    },
+    "type" : "playlist",
+    "uri" : "spotify:playlist:6Bvsbrhj5EBvJjehX6ki2x"
+  }, {
+    "collaborative" : false,
+    "description" : "",
+    "external_urls" : {
+      "spotify" : "https://open.spotify.com/playlist/1Sr25h9ARS62HtC7dz5zgv"
+    },
+    "href" : "https://api.spotify.com/v1/playlists/1Sr25h9ARS62HtC7dz5zgv",
+    "id" : "1Sr25h9ARS62HtC7dz5zgv",
+    "images" : [ {
+      "height" : 640,
+      "url" : "https://mosaic.scdn.co/640/ab67616d0000b27301fc57d639133319122c4ff4ab67616d0000b273276787ec792a7786601e035aab67616d0000b2732abcf7d2370b3364db21912fab67616d0000b2737f3d81b79a5980857bb253a7",
+      "width" : 640
+    }, {
+      "height" : 300,
+      "url" : "https://mosaic.scdn.co/300/ab67616d0000b27301fc57d639133319122c4ff4ab67616d0000b273276787ec792a7786601e035aab67616d0000b2732abcf7d2370b3364db21912fab67616d0000b2737f3d81b79a5980857bb253a7",
+      "width" : 300
+    }, {
+      "height" : 60,
+      "url" : "https://mosaic.scdn.co/60/ab67616d0000b27301fc57d639133319122c4ff4ab67616d0000b273276787ec792a7786601e035aab67616d0000b2732abcf7d2370b3364db21912fab67616d0000b2737f3d81b79a5980857bb253a7",
+      "width" : 60
+    } ],
+    "name" : "The Struts",
+    "owner" : {
+      "display_name" : "Simon Mazzucca",
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/user/simonmazzucca"
+      },
+      "href" : "https://api.spotify.com/v1/users/simonmazzucca",
+      "id" : "simonmazzucca",
+      "type" : "user",
+      "uri" : "spotify:user:simonmazzucca"
+    },
+    "primary_color" : null,
+    "public" : false,
+    "snapshot_id" : "MjEsZWVkMjQ1MWNlYThhNzI3MzE1ZjU2NzI2NjMxYWJmN2YzNjgwNjViOQ==",
+    "tracks" : {
+      "href" : "https://api.spotify.com/v1/playlists/1Sr25h9ARS62HtC7dz5zgv/tracks",
+      "total" : 16
+    },
+    "type" : "playlist",
+    "uri" : "spotify:playlist:1Sr25h9ARS62HtC7dz5zgv"
+  }, {
+    "collaborative" : false,
+    "description" : "",
+    "external_urls" : {
+      "spotify" : "https://open.spotify.com/playlist/7u9k339416Trecx4MVYYoH"
+    },
+    "href" : "https://api.spotify.com/v1/playlists/7u9k339416Trecx4MVYYoH",
+    "id" : "7u9k339416Trecx4MVYYoH",
+    "images" : [ {
+      "height" : 640,
+      "url" : "https://mosaic.scdn.co/640/ab67616d0000b27317dd812df38fed44d6d2036eab67616d0000b27378130ee7793acdc00fdd930bab67616d0000b27384e08aa87d13451531e72274ab67616d0000b273b414c63fb435b622238c15ed",
+      "width" : 640
+    }, {
+      "height" : 300,
+      "url" : "https://mosaic.scdn.co/300/ab67616d0000b27317dd812df38fed44d6d2036eab67616d0000b27378130ee7793acdc00fdd930bab67616d0000b27384e08aa87d13451531e72274ab67616d0000b273b414c63fb435b622238c15ed",
+      "width" : 300
+    }, {
+      "height" : 60,
+      "url" : "https://mosaic.scdn.co/60/ab67616d0000b27317dd812df38fed44d6d2036eab67616d0000b27378130ee7793acdc00fdd930bab67616d0000b27384e08aa87d13451531e72274ab67616d0000b273b414c63fb435b622238c15ed",
+      "width" : 60
+    } ],
+    "name" : "Classic & Hard Rock",
+    "owner" : {
+      "display_name" : "Simon Mazzucca",
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/user/simonmazzucca"
+      },
+      "href" : "https://api.spotify.com/v1/users/simonmazzucca",
+      "id" : "simonmazzucca",
+      "type" : "user",
+      "uri" : "spotify:user:simonmazzucca"
+    },
+    "primary_color" : null,
+    "public" : false,
+    "snapshot_id" : "MTYyLDMzZTVjMDY3YTg4ZjVkNzYyMjJiYWU1YzMyY2QxYzM5NWQyOWQxYzE=",
+    "tracks" : {
+      "href" : "https://api.spotify.com/v1/playlists/7u9k339416Trecx4MVYYoH/tracks",
+      "total" : 277
+    },
+    "type" : "playlist",
+    "uri" : "spotify:playlist:7u9k339416Trecx4MVYYoH"
+  }, {
+    "collaborative" : false,
+    "description" : "",
+    "external_urls" : {
+      "spotify" : "https://open.spotify.com/playlist/5yubLWfC0YYY30TieJTZE2"
+    },
+    "href" : "https://api.spotify.com/v1/playlists/5yubLWfC0YYY30TieJTZE2",
+    "id" : "5yubLWfC0YYY30TieJTZE2",
+    "images" : [ {
+      "height" : 640,
+      "url" : "https://mosaic.scdn.co/640/ab67616d0000b2734ce8b4e42588bf18182a1ad2ab67616d0000b27359f0f56a7cd13526b5b4204cab67616d0000b2735d48e2f56d691f9a4e4b0bdfab67616d0000b273d55ec7fcfacd95e73877b787",
+      "width" : 640
+    }, {
+      "height" : 300,
+      "url" : "https://mosaic.scdn.co/300/ab67616d0000b2734ce8b4e42588bf18182a1ad2ab67616d0000b27359f0f56a7cd13526b5b4204cab67616d0000b2735d48e2f56d691f9a4e4b0bdfab67616d0000b273d55ec7fcfacd95e73877b787",
+      "width" : 300
+    }, {
+      "height" : 60,
+      "url" : "https://mosaic.scdn.co/60/ab67616d0000b2734ce8b4e42588bf18182a1ad2ab67616d0000b27359f0f56a7cd13526b5b4204cab67616d0000b2735d48e2f56d691f9a4e4b0bdfab67616d0000b273d55ec7fcfacd95e73877b787",
+      "width" : 60
+    } ],
+    "name" : "Guitar Songs",
+    "owner" : {
+      "display_name" : "Simon Mazzucca",
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/user/simonmazzucca"
+      },
+      "href" : "https://api.spotify.com/v1/users/simonmazzucca",
+      "id" : "simonmazzucca",
+      "type" : "user",
+      "uri" : "spotify:user:simonmazzucca"
+    },
+    "primary_color" : null,
+    "public" : true,
+    "snapshot_id" : "MTksNzIzNTEzODcyMTczOGQzYTJjYjI1ZGI1ZjM0NzFjMmEyMzRiMzNhMQ==",
+    "tracks" : {
+      "href" : "https://api.spotify.com/v1/playlists/5yubLWfC0YYY30TieJTZE2/tracks",
+      "total" : 13
+    },
+    "type" : "playlist",
+    "uri" : "spotify:playlist:5yubLWfC0YYY30TieJTZE2"
+  }, {
+    "collaborative" : false,
+    "description" : "A collection of Queen songs that don&#x27;t get a lot of radio play",
+    "external_urls" : {
+      "spotify" : "https://open.spotify.com/playlist/4BmcndWXwKxYbqhanbqkI8"
+    },
+    "href" : "https://api.spotify.com/v1/playlists/4BmcndWXwKxYbqhanbqkI8",
+    "id" : "4BmcndWXwKxYbqhanbqkI8",
+    "images" : [ {
+      "height" : 640,
+      "url" : "https://mosaic.scdn.co/640/ab67616d0000b273008b06ec71019afd70153889ab67616d0000b27359998815d706661e2c404d9fab67616d0000b273ce4f1737bc8a646c8c4bd25aab67616d0000b273cec894846895a2cc1668ea9f",
+      "width" : 640
+    }, {
+      "height" : 300,
+      "url" : "https://mosaic.scdn.co/300/ab67616d0000b273008b06ec71019afd70153889ab67616d0000b27359998815d706661e2c404d9fab67616d0000b273ce4f1737bc8a646c8c4bd25aab67616d0000b273cec894846895a2cc1668ea9f",
+      "width" : 300
+    }, {
+      "height" : 60,
+      "url" : "https://mosaic.scdn.co/60/ab67616d0000b273008b06ec71019afd70153889ab67616d0000b27359998815d706661e2c404d9fab67616d0000b273ce4f1737bc8a646c8c4bd25aab67616d0000b273cec894846895a2cc1668ea9f",
+      "width" : 60
+    } ],
+    "name" : "Queen",
+    "owner" : {
+      "display_name" : "Simon Mazzucca",
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/user/simonmazzucca"
+      },
+      "href" : "https://api.spotify.com/v1/users/simonmazzucca",
+      "id" : "simonmazzucca",
+      "type" : "user",
+      "uri" : "spotify:user:simonmazzucca"
+    },
+    "primary_color" : null,
+    "public" : true,
+    "snapshot_id" : "MTQsOGE5MTcxOTgzM2YwNGYxNjVmZGEyYmNmYzBjNTI2N2UwNjYwYWVkOQ==",
+    "tracks" : {
+      "href" : "https://api.spotify.com/v1/playlists/4BmcndWXwKxYbqhanbqkI8/tracks",
+      "total" : 12
+    },
+    "type" : "playlist",
+    "uri" : "spotify:playlist:4BmcndWXwKxYbqhanbqkI8"
+  }, {
+    "collaborative" : false,
+    "description" : "Hair goals, spandex and epic guitar solos. We got you. Celebrating the life and legacy of Eddie Van Halen.",
+    "external_urls" : {
+      "spotify" : "https://open.spotify.com/playlist/37i9dQZF1DX68H8ZujdnN7"
+    },
+    "href" : "https://api.spotify.com/v1/playlists/37i9dQZF1DX68H8ZujdnN7",
+    "id" : "37i9dQZF1DX68H8ZujdnN7",
+    "images" : [ {
+      "height" : null,
+      "url" : "https://i.scdn.co/image/ab67706f000000039205ddd6990d57d56db91b81",
+      "width" : null
+    } ],
+    "name" : "’80s Hard Rock",
+    "owner" : {
+      "display_name" : "Spotify",
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/user/spotify"
+      },
+      "href" : "https://api.spotify.com/v1/users/spotify",
+      "id" : "spotify",
+      "type" : "user",
+      "uri" : "spotify:user:spotify"
+    },
+    "primary_color" : null,
+    "public" : false,
+    "snapshot_id" : "MTYzMjE3MjM5MiwwMDAwMDAyOTAwMDAwMTdjMDUwZTNmODAwMDAwMDE3NTA0ZDUzMGE3",
+    "tracks" : {
+      "href" : "https://api.spotify.com/v1/playlists/37i9dQZF1DX68H8ZujdnN7/tracks",
+      "total" : 105
+    },
+    "type" : "playlist",
+    "uri" : "spotify:playlist:37i9dQZF1DX68H8ZujdnN7"
+  }, {
+    "collaborative" : false,
+    "description" : "",
+    "external_urls" : {
+      "spotify" : "https://open.spotify.com/playlist/0woySp3ce8BqRizxoTNDQk"
+    },
+    "href" : "https://api.spotify.com/v1/playlists/0woySp3ce8BqRizxoTNDQk",
+    "id" : "0woySp3ce8BqRizxoTNDQk",
+    "images" : [ {
+      "height" : 640,
+      "url" : "https://mosaic.scdn.co/640/ab67616d0000b2735fa53cb7507e4c55178ead5aab67616d0000b27364cc86c9443b8d9ee189ca2dab67616d0000b2736fae515dba921acd636abb71ab67616d0000b273baa61502a0635455d78eff6b",
+      "width" : 640
+    }, {
+      "height" : 300,
+      "url" : "https://mosaic.scdn.co/300/ab67616d0000b2735fa53cb7507e4c55178ead5aab67616d0000b27364cc86c9443b8d9ee189ca2dab67616d0000b2736fae515dba921acd636abb71ab67616d0000b273baa61502a0635455d78eff6b",
+      "width" : 300
+    }, {
+      "height" : 60,
+      "url" : "https://mosaic.scdn.co/60/ab67616d0000b2735fa53cb7507e4c55178ead5aab67616d0000b27364cc86c9443b8d9ee189ca2dab67616d0000b2736fae515dba921acd636abb71ab67616d0000b273baa61502a0635455d78eff6b",
+      "width" : 60
+    } ],
+    "name" : "Dream Theater",
+    "owner" : {
+      "display_name" : "Simon Mazzucca",
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/user/simonmazzucca"
+      },
+      "href" : "https://api.spotify.com/v1/users/simonmazzucca",
+      "id" : "simonmazzucca",
+      "type" : "user",
+      "uri" : "spotify:user:simonmazzucca"
+    },
+    "primary_color" : null,
+    "public" : false,
+    "snapshot_id" : "NDksMDVkZDFlODdmMGNiNDMxZDMxNDYzZjg1NTUxMjg5Y2U1NDExYTBlMA==",
+    "tracks" : {
+      "href" : "https://api.spotify.com/v1/playlists/0woySp3ce8BqRizxoTNDQk/tracks",
+      "total" : 24
+    },
+    "type" : "playlist",
+    "uri" : "spotify:playlist:0woySp3ce8BqRizxoTNDQk"
+  }, {
+    "collaborative" : false,
+    "description" : "",
+    "external_urls" : {
+      "spotify" : "https://open.spotify.com/playlist/3CPoRZjWl0hTCtlZrSPCFc"
+    },
+    "href" : "https://api.spotify.com/v1/playlists/3CPoRZjWl0hTCtlZrSPCFc",
+    "id" : "3CPoRZjWl0hTCtlZrSPCFc",
+    "images" : [ {
+      "height" : 640,
+      "url" : "https://mosaic.scdn.co/640/ab67616d0000b2730a3eb7ef6df5732fc6fa77ecab67616d0000b273533fd0b248052d04e6b732c0ab67616d0000b2736b275d72474c508ce2b405a4ab67616d0000b273be54746b374358970b5e617a",
+      "width" : 640
+    }, {
+      "height" : 300,
+      "url" : "https://mosaic.scdn.co/300/ab67616d0000b2730a3eb7ef6df5732fc6fa77ecab67616d0000b273533fd0b248052d04e6b732c0ab67616d0000b2736b275d72474c508ce2b405a4ab67616d0000b273be54746b374358970b5e617a",
+      "width" : 300
+    }, {
+      "height" : 60,
+      "url" : "https://mosaic.scdn.co/60/ab67616d0000b2730a3eb7ef6df5732fc6fa77ecab67616d0000b273533fd0b248052d04e6b732c0ab67616d0000b2736b275d72474c508ce2b405a4ab67616d0000b273be54746b374358970b5e617a",
+      "width" : 60
+    } ],
+    "name" : "Metallica Easy on Your Ears",
+    "owner" : {
+      "display_name" : "Simon Mazzucca",
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/user/simonmazzucca"
+      },
+      "href" : "https://api.spotify.com/v1/users/simonmazzucca",
+      "id" : "simonmazzucca",
+      "type" : "user",
+      "uri" : "spotify:user:simonmazzucca"
+    },
+    "primary_color" : null,
+    "public" : true,
+    "snapshot_id" : "MTgsMmU3YTNhMzAzZTU3ZTQ1Yjk0NjMzYTY0NjkzMDJkZDg1MTM2NzkxNw==",
+    "tracks" : {
+      "href" : "https://api.spotify.com/v1/playlists/3CPoRZjWl0hTCtlZrSPCFc/tracks",
+      "total" : 12
+    },
+    "type" : "playlist",
+    "uri" : "spotify:playlist:3CPoRZjWl0hTCtlZrSPCFc"
+  }, {
+    "collaborative" : false,
+    "description" : "Like the old school sound of metal? Then you'll love this playlist!",
+    "external_urls" : {
+      "spotify" : "https://open.spotify.com/playlist/37i9dQZF1DX2LTcinqsO68"
+    },
+    "href" : "https://api.spotify.com/v1/playlists/37i9dQZF1DX2LTcinqsO68",
+    "id" : "37i9dQZF1DX2LTcinqsO68",
+    "images" : [ {
+      "height" : null,
+      "url" : "https://i.scdn.co/image/ab67706f000000038b611bbfa034d0b4e346487c",
+      "width" : null
+    } ],
+    "name" : "Old School Metal",
+    "owner" : {
+      "display_name" : "Spotify",
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/user/spotify"
+      },
+      "href" : "https://api.spotify.com/v1/users/spotify",
+      "id" : "spotify",
+      "type" : "user",
+      "uri" : "spotify:user:spotify"
+    },
+    "primary_color" : null,
+    "public" : false,
+    "snapshot_id" : "MTYzOTc2NjU4MywwMDAwMDAwMGQ0MWQ4Y2Q5OGYwMGIyMDRlOTgwMDk5OGVjZjg0Mjdl",
+    "tracks" : {
+      "href" : "https://api.spotify.com/v1/playlists/37i9dQZF1DX2LTcinqsO68/tracks",
+      "total" : 125
+    },
+    "type" : "playlist",
+    "uri" : "spotify:playlist:37i9dQZF1DX2LTcinqsO68"
+  }, {
+    "collaborative" : false,
+    "description" : "",
+    "external_urls" : {
+      "spotify" : "https://open.spotify.com/playlist/7L4BEudqTRUL3OOeJYlIJ7"
+    },
+    "href" : "https://api.spotify.com/v1/playlists/7L4BEudqTRUL3OOeJYlIJ7",
+    "id" : "7L4BEudqTRUL3OOeJYlIJ7",
+    "images" : [ {
+      "height" : 640,
+      "url" : "https://mosaic.scdn.co/640/ab67616d0000b27317db2369086bf97cbe5e44b1ab67616d0000b2733e5b915ca435eb4e2b0d743eab67616d0000b2736ee5427674e1b32a79f7567aab67616d0000b27391fcdc499f2dbfbcd7e58b59",
+      "width" : 640
+    }, {
+      "height" : 300,
+      "url" : "https://mosaic.scdn.co/300/ab67616d0000b27317db2369086bf97cbe5e44b1ab67616d0000b2733e5b915ca435eb4e2b0d743eab67616d0000b2736ee5427674e1b32a79f7567aab67616d0000b27391fcdc499f2dbfbcd7e58b59",
+      "width" : 300
+    }, {
+      "height" : 60,
+      "url" : "https://mosaic.scdn.co/60/ab67616d0000b27317db2369086bf97cbe5e44b1ab67616d0000b2733e5b915ca435eb4e2b0d743eab67616d0000b2736ee5427674e1b32a79f7567aab67616d0000b27391fcdc499f2dbfbcd7e58b59",
+      "width" : 60
+    } ],
+    "name" : "Thrash Metal Classics",
+    "owner" : {
+      "display_name" : "12124165724",
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/user/12124165724"
+      },
+      "href" : "https://api.spotify.com/v1/users/12124165724",
+      "id" : "12124165724",
+      "type" : "user",
+      "uri" : "spotify:user:12124165724"
+    },
+    "primary_color" : null,
+    "public" : false,
+    "snapshot_id" : "MjQ5LDAzNDU4MGM3Zjc5MTUyMWM0N2U0MjljZjllNGE5ZmMxYTQ0OWFiNTI=",
+    "tracks" : {
+      "href" : "https://api.spotify.com/v1/playlists/7L4BEudqTRUL3OOeJYlIJ7/tracks",
+      "total" : 223
+    },
+    "type" : "playlist",
+    "uri" : "spotify:playlist:7L4BEudqTRUL3OOeJYlIJ7"
+  }, {
+    "collaborative" : false,
+    "description" : "Rewind and unwind with sirens of the seventies and eighties.",
+    "external_urls" : {
+      "spotify" : "https://open.spotify.com/playlist/37i9dQZF1DX0JKUIfwQSJh"
+    },
+    "href" : "https://api.spotify.com/v1/playlists/37i9dQZF1DX0JKUIfwQSJh",
+    "id" : "37i9dQZF1DX0JKUIfwQSJh",
+    "images" : [ {
+      "height" : null,
+      "url" : "https://i.scdn.co/image/ab67706f000000034e0be6cade5bd732df4ddc32",
+      "width" : null
+    } ],
+    "name" : "70s & 80s Acoustic",
+    "owner" : {
+      "display_name" : "Spotify",
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/user/spotify"
+      },
+      "href" : "https://api.spotify.com/v1/users/spotify",
+      "id" : "spotify",
+      "type" : "user",
+      "uri" : "spotify:user:spotify"
+    },
+    "primary_color" : null,
+    "public" : false,
+    "snapshot_id" : "MTYzOTc2NjU4MywwMDAwMDAwMGQ0MWQ4Y2Q5OGYwMGIyMDRlOTgwMDk5OGVjZjg0Mjdl",
+    "tracks" : {
+      "href" : "https://api.spotify.com/v1/playlists/37i9dQZF1DX0JKUIfwQSJh/tracks",
+      "total" : 60
+    },
+    "type" : "playlist",
+    "uri" : "spotify:playlist:37i9dQZF1DX0JKUIfwQSJh"
+  }, {
+    "collaborative" : false,
+    "description" : "",
+    "external_urls" : {
+      "spotify" : "https://open.spotify.com/playlist/1GJxHcnV0YpF1ASLDGdSBz"
+    },
+    "href" : "https://api.spotify.com/v1/playlists/1GJxHcnV0YpF1ASLDGdSBz",
+    "id" : "1GJxHcnV0YpF1ASLDGdSBz",
+    "images" : [ {
+      "height" : 640,
+      "url" : "https://mosaic.scdn.co/640/ab67616d0000b273128057b40732c042c86de1ddab67616d0000b2733e2331ff09f59ea3c87fe5d6ab67616d0000b27344a8aa7ac5c2e2defbfd702bab67616d0000b273e2d156fdc691f57900134342",
+      "width" : 640
+    }, {
+      "height" : 300,
+      "url" : "https://mosaic.scdn.co/300/ab67616d0000b273128057b40732c042c86de1ddab67616d0000b2733e2331ff09f59ea3c87fe5d6ab67616d0000b27344a8aa7ac5c2e2defbfd702bab67616d0000b273e2d156fdc691f57900134342",
+      "width" : 300
+    }, {
+      "height" : 60,
+      "url" : "https://mosaic.scdn.co/60/ab67616d0000b273128057b40732c042c86de1ddab67616d0000b2733e2331ff09f59ea3c87fe5d6ab67616d0000b27344a8aa7ac5c2e2defbfd702bab67616d0000b273e2d156fdc691f57900134342",
+      "width" : 60
+    } ],
+    "name" : "The Simone and Emme Duets Special",
+    "owner" : {
+      "display_name" : "Simon Mazzucca",
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/user/simonmazzucca"
+      },
+      "href" : "https://api.spotify.com/v1/users/simonmazzucca",
+      "id" : "simonmazzucca",
+      "type" : "user",
+      "uri" : "spotify:user:simonmazzucca"
+    },
+    "primary_color" : null,
+    "public" : true,
+    "snapshot_id" : "MjMsMWYyZmQyMzBmMThiOTVmYTI5MmIwM2ViYWFjMDg3NWYwNGExYzJlNQ==",
+    "tracks" : {
+      "href" : "https://api.spotify.com/v1/playlists/1GJxHcnV0YpF1ASLDGdSBz/tracks",
+      "total" : 14
+    },
+    "type" : "playlist",
+    "uri" : "spotify:playlist:1GJxHcnV0YpF1ASLDGdSBz"
+  }, {
+    "collaborative" : false,
+    "description" : "",
+    "external_urls" : {
+      "spotify" : "https://open.spotify.com/playlist/450gJQorkOabItO46Brw0t"
+    },
+    "href" : "https://api.spotify.com/v1/playlists/450gJQorkOabItO46Brw0t",
+    "id" : "450gJQorkOabItO46Brw0t",
+    "images" : [ {
+      "height" : 640,
+      "url" : "https://mosaic.scdn.co/640/ab67616d0000b273c05ee7800dca138ffb6274ffab67616d0000b273d03ab2da904d8251a87bbc31ab67616d0000b273f2cbe99e38a6006377757fa0ab67616d0000b273f67fbf0d465cca2b3e25af96",
+      "width" : 640
+    }, {
+      "height" : 300,
+      "url" : "https://mosaic.scdn.co/300/ab67616d0000b273c05ee7800dca138ffb6274ffab67616d0000b273d03ab2da904d8251a87bbc31ab67616d0000b273f2cbe99e38a6006377757fa0ab67616d0000b273f67fbf0d465cca2b3e25af96",
+      "width" : 300
+    }, {
+      "height" : 60,
+      "url" : "https://mosaic.scdn.co/60/ab67616d0000b273c05ee7800dca138ffb6274ffab67616d0000b273d03ab2da904d8251a87bbc31ab67616d0000b273f2cbe99e38a6006377757fa0ab67616d0000b273f67fbf0d465cca2b3e25af96",
+      "width" : 60
+    } ],
+    "name" : "Elton",
+    "owner" : {
+      "display_name" : "Simon Mazzucca",
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/user/simonmazzucca"
+      },
+      "href" : "https://api.spotify.com/v1/users/simonmazzucca",
+      "id" : "simonmazzucca",
+      "type" : "user",
+      "uri" : "spotify:user:simonmazzucca"
+    },
+    "primary_color" : null,
+    "public" : true,
+    "snapshot_id" : "MTAsMjJhOTI1MjI4MzgyYTZiZGUzOTk3MDQxMjhjNGRlYTc2ZmU3MjZhYg==",
+    "tracks" : {
+      "href" : "https://api.spotify.com/v1/playlists/450gJQorkOabItO46Brw0t/tracks",
+      "total" : 9
+    },
+    "type" : "playlist",
+    "uri" : "spotify:playlist:450gJQorkOabItO46Brw0t"
+  }, {
+    "collaborative" : false,
+    "description" : "",
+    "external_urls" : {
+      "spotify" : "https://open.spotify.com/playlist/69w1Myww2umHhKqbYPGGlI"
+    },
+    "href" : "https://api.spotify.com/v1/playlists/69w1Myww2umHhKqbYPGGlI",
+    "id" : "69w1Myww2umHhKqbYPGGlI",
+    "images" : [ {
+      "height" : 640,
+      "url" : "https://mosaic.scdn.co/640/ab67616d0000b273124702a01218fcc4f9099babab67616d0000b2734111af27787499f6d8752e9fab67616d0000b273577bafd70c666aac2e72f69dab67616d0000b273c23a9178117bae9d7975c07c",
+      "width" : 640
+    }, {
+      "height" : 300,
+      "url" : "https://mosaic.scdn.co/300/ab67616d0000b273124702a01218fcc4f9099babab67616d0000b2734111af27787499f6d8752e9fab67616d0000b273577bafd70c666aac2e72f69dab67616d0000b273c23a9178117bae9d7975c07c",
+      "width" : 300
+    }, {
+      "height" : 60,
+      "url" : "https://mosaic.scdn.co/60/ab67616d0000b273124702a01218fcc4f9099babab67616d0000b2734111af27787499f6d8752e9fab67616d0000b273577bafd70c666aac2e72f69dab67616d0000b273c23a9178117bae9d7975c07c",
+      "width" : 60
+    } ],
+    "name" : "Classic Rock Duets",
+    "owner" : {
+      "display_name" : "Chris Prime",
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/user/chrisbprime"
+      },
+      "href" : "https://api.spotify.com/v1/users/chrisbprime",
+      "id" : "chrisbprime",
+      "type" : "user",
+      "uri" : "spotify:user:chrisbprime"
+    },
+    "primary_color" : null,
+    "public" : false,
+    "snapshot_id" : "ODAsNWE0YzE1ZWEzZGUzZjlhNDRlNGNjZTFiNjJkMmIyYzJhYjc0MGY1MQ==",
+    "tracks" : {
+      "href" : "https://api.spotify.com/v1/playlists/69w1Myww2umHhKqbYPGGlI/tracks",
+      "total" : 72
+    },
+    "type" : "playlist",
+    "uri" : "spotify:playlist:69w1Myww2umHhKqbYPGGlI"
+  }, {
+    "collaborative" : false,
+    "description" : "Mellow soft rock and pop from the 60s, 70s, and 80s",
+    "external_urls" : {
+      "spotify" : "https://open.spotify.com/playlist/0Bp8UVfdimKEFjisV1eJtf"
+    },
+    "href" : "https://api.spotify.com/v1/playlists/0Bp8UVfdimKEFjisV1eJtf",
+    "id" : "0Bp8UVfdimKEFjisV1eJtf",
+    "images" : [ {
+      "height" : 640,
+      "url" : "https://mosaic.scdn.co/640/ab67616d0000b2733414ea69249376598e7d1700ab67616d0000b27359f0f56a7cd13526b5b4204cab67616d0000b273bddcc30c6a3288e725aec2dfab67616d0000b273e9c2ddff377423fcdea5d44a",
+      "width" : 640
+    }, {
+      "height" : 300,
+      "url" : "https://mosaic.scdn.co/300/ab67616d0000b2733414ea69249376598e7d1700ab67616d0000b27359f0f56a7cd13526b5b4204cab67616d0000b273bddcc30c6a3288e725aec2dfab67616d0000b273e9c2ddff377423fcdea5d44a",
+      "width" : 300
+    }, {
+      "height" : 60,
+      "url" : "https://mosaic.scdn.co/60/ab67616d0000b2733414ea69249376598e7d1700ab67616d0000b27359f0f56a7cd13526b5b4204cab67616d0000b273bddcc30c6a3288e725aec2dfab67616d0000b273e9c2ddff377423fcdea5d44a",
+      "width" : 60
+    } ],
+    "name" : "Soft Rock &  Pop - 60s, 70s, 80s",
+    "owner" : {
+      "display_name" : "dachweiler",
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/user/dachweiler"
+      },
+      "href" : "https://api.spotify.com/v1/users/dachweiler",
+      "id" : "dachweiler",
+      "type" : "user",
+      "uri" : "spotify:user:dachweiler"
+    },
+    "primary_color" : null,
+    "public" : false,
+    "snapshot_id" : "MTc1OSxiNDU5NGYzNGRlM2MzYWNhYTg5MDU5MzdlNjgyZTE2N2Q5MDkwNDdm",
+    "tracks" : {
+      "href" : "https://api.spotify.com/v1/playlists/0Bp8UVfdimKEFjisV1eJtf/tracks",
+      "total" : 344
+    },
+    "type" : "playlist",
+    "uri" : "spotify:playlist:0Bp8UVfdimKEFjisV1eJtf"
+  }, {
+    "collaborative" : false,
+    "description" : "",
+    "external_urls" : {
+      "spotify" : "https://open.spotify.com/playlist/3hWMeu0K9AkMNCuWnfy8Kr"
+    },
+    "href" : "https://api.spotify.com/v1/playlists/3hWMeu0K9AkMNCuWnfy8Kr",
+    "id" : "3hWMeu0K9AkMNCuWnfy8Kr",
+    "images" : [ {
+      "height" : 640,
+      "url" : "https://mosaic.scdn.co/640/ab67616d0000b2731a84d71391df7469c5ab8539ab67616d0000b2732d73b1bb77cee09f0278be04ab67616d0000b273582d56ce20fe0146ffa0e5cfab67616d0000b273b11078ee23dcd99e085ac33e",
+      "width" : 640
+    }, {
+      "height" : 300,
+      "url" : "https://mosaic.scdn.co/300/ab67616d0000b2731a84d71391df7469c5ab8539ab67616d0000b2732d73b1bb77cee09f0278be04ab67616d0000b273582d56ce20fe0146ffa0e5cfab67616d0000b273b11078ee23dcd99e085ac33e",
+      "width" : 300
+    }, {
+      "height" : 60,
+      "url" : "https://mosaic.scdn.co/60/ab67616d0000b2731a84d71391df7469c5ab8539ab67616d0000b2732d73b1bb77cee09f0278be04ab67616d0000b273582d56ce20fe0146ffa0e5cfab67616d0000b273b11078ee23dcd99e085ac33e",
+      "width" : 60
+    } ],
+    "name" : "Ballads",
+    "owner" : {
+      "display_name" : "Simon Mazzucca",
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/user/simonmazzucca"
+      },
+      "href" : "https://api.spotify.com/v1/users/simonmazzucca",
+      "id" : "simonmazzucca",
+      "type" : "user",
+      "uri" : "spotify:user:simonmazzucca"
+    },
+    "primary_color" : null,
+    "public" : true,
+    "snapshot_id" : "MTQsNThkNzIzMTgxMWJiYzhhMDUyNDA5ZGY1MmZlMWJhYjBkYTdkNmQyZQ==",
+    "tracks" : {
+      "href" : "https://api.spotify.com/v1/playlists/3hWMeu0K9AkMNCuWnfy8Kr/tracks",
+      "total" : 8
+    },
+    "type" : "playlist",
+    "uri" : "spotify:playlist:3hWMeu0K9AkMNCuWnfy8Kr"
+  }, {
+    "collaborative" : false,
+    "description" : "",
+    "external_urls" : {
+      "spotify" : "https://open.spotify.com/playlist/7cWnzxH6LUPLfkiJ7Jn64c"
+    },
+    "href" : "https://api.spotify.com/v1/playlists/7cWnzxH6LUPLfkiJ7Jn64c",
+    "id" : "7cWnzxH6LUPLfkiJ7Jn64c",
+    "images" : [ {
+      "height" : 640,
+      "url" : "https://mosaic.scdn.co/640/ab67616d0000b2731c0522b1f119c06409b838dcab67616d0000b27339bb12f14680bbfcaee0fd5dab67616d0000b27376c9c850d185ad92d042698cab67616d0000b273e6027dbd26745621786061f0",
+      "width" : 640
+    }, {
+      "height" : 300,
+      "url" : "https://mosaic.scdn.co/300/ab67616d0000b2731c0522b1f119c06409b838dcab67616d0000b27339bb12f14680bbfcaee0fd5dab67616d0000b27376c9c850d185ad92d042698cab67616d0000b273e6027dbd26745621786061f0",
+      "width" : 300
+    }, {
+      "height" : 60,
+      "url" : "https://mosaic.scdn.co/60/ab67616d0000b2731c0522b1f119c06409b838dcab67616d0000b27339bb12f14680bbfcaee0fd5dab67616d0000b27376c9c850d185ad92d042698cab67616d0000b273e6027dbd26745621786061f0",
+      "width" : 60
+    } ],
+    "name" : "Bahamas",
+    "owner" : {
+      "display_name" : "Simon Mazzucca",
+      "external_urls" : {
+        "spotify" : "https://open.spotify.com/user/simonmazzucca"
+      },
+      "href" : "https://api.spotify.com/v1/users/simonmazzucca",
+      "id" : "simonmazzucca",
+      "type" : "user",
+      "uri" : "spotify:user:simonmazzucca"
+    },
+    "primary_color" : null,
+    "public" : true,
+    "snapshot_id" : "MzAsY2EzYjFiMGQ4MTY3Njc2M2Q0YjA2Y2JjNTM0Y2E0ZTI3NGM5ZDkxZA==",
+    "tracks" : {
+      "href" : "https://api.spotify.com/v1/playlists/7cWnzxH6LUPLfkiJ7Jn64c/tracks",
+      "total" : 10
+    },
+    "type" : "playlist",
+    "uri" : "spotify:playlist:7cWnzxH6LUPLfkiJ7Jn64c"
+  } ],
+  "limit" : 20,
+  "next" : "https://api.spotify.com/v1/users/simonmazzucca/playlists?offset=20&limit=20",
+  "offset" : 0,
+  "previous" : null,
+  "total" : 29
+}
