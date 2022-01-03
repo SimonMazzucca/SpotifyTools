@@ -6,6 +6,7 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{EA51631F-8751-478D-B626-A77130362412}</ProjectGuid>
     <OutputType>Exe</OutputType>
+    <LangVersion>7.1</LangVersion>
     <RootNamespace>SpotifyTools</RootNamespace>
     <AssemblyName>SpotifyTools</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>

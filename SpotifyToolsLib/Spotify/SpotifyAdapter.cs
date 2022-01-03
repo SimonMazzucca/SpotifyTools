@@ -1,9 +1,11 @@
-﻿using Newtonsoft.Json;
+﻿using log4net;
+using Newtonsoft.Json;
 using SpotifyToolsLib.Spotify.SpotifyModel;
 using SpotifyToolsLib.Utilities;
 using System;
-using System.Linq;
 using System.Collections.Generic;
+using System.Linq;
+using System.Reflection;
 using System.Threading.Tasks;
 
 namespace SpotifyToolsLib.Spotify
@@ -14,6 +16,8 @@ namespace SpotifyToolsLib.Spotify
     /// </summary>
     public class SpotifyAdapter : BaseAdapter
     {
+        private readonly ILog _Log = LogManager.GetLogger(MethodBase.GetCurrentMethod().DeclaringType);
+
         public SpotifyAdapter() : base()
         {
         }
@@ -22,7 +26,6 @@ namespace SpotifyToolsLib.Spotify
         {
         }
 
-        //TODO: use Settings directly
         public AuthenticationToken AuthenticationToken
         {
             get
@@ -53,11 +56,12 @@ namespace SpotifyToolsLib.Spotify
                 string songUri = GetSongUri(song).Result;
                 if (string.IsNullOrEmpty(songUri))
                 {
-                    Console.WriteLine("Song not found: {0} - {1}", song.Artist, song.Name);
+                    _Log.InfoFormat("Song not found,{0} - {1}", song.Artist, song.Name);
                 }
                 else
                 {
                     songUris.Add(songUri);
+                    _Log.DebugFormat("Song added,{0} - {1}", song.Artist, song.Name);
                 }
             }
             dynamic postData = new System.Dynamic.ExpandoObject();
@@ -77,15 +81,15 @@ namespace SpotifyToolsLib.Spotify
             string json = await HttpHelper.Get(url, this.AuthenticationToken, true);
             CheckForResponseErrors(json);
 
-            Console.WriteLine(json);
-
             SpotifyTracks response = JsonConvert.DeserializeObject<SpotifyTracks>(json, new JsonSerializerSettings());
 
             // Assuming item 0 is the one with highest popularity
             Item[] songsFound = response?.tracks?.items;
-            if (songsFound == null || songsFound.Length == 0)
+            if (songsFound == null || songsFound.Length == 0 || songsFound[0].artists == null)
                 return "";
-            else 
+            else if (songsFound[0].name != song.Name || songsFound[0].artists[0].name != song.Artist)
+                return "";
+            else
                 return songsFound[0].uri;
         }
 
@@ -113,17 +117,21 @@ namespace SpotifyToolsLib.Spotify
             string json = await HttpHelper.Get("https://api.spotify.com/v1/me/playlists", this.AuthenticationToken, true);
             CheckForResponseErrors(json);
 
-            Console.WriteLine(json);
-
             SpotifyPlaylistCollection partial = JsonConvert.DeserializeObject<SpotifyPlaylistCollection>(json, new JsonSerializerSettings());
             List<SpotifyPlaylist> toReturn = new List<SpotifyPlaylist>(partial.items);
 
-            Console.WriteLine("Playlists found: {0}", toReturn.Count);
+            if (toReturn.Count == 50)
+                _Log.Warn("50 playlists found, some might be missing");
+            else
+                _Log.InfoFormat("Playlists found,{0}", toReturn.Count);
+
             return toReturn;
         }
 
         public async Task<SpotifyPlaylist> CreatePlaylist(string name, bool isPublic)
         {
+            _Log.InfoFormat("Creating playlist,{0}", name);
+
             dynamic postData = new System.Dynamic.ExpandoObject();
             postData.name = name;
             postData.@public = isPublic;
@@ -133,6 +141,7 @@ namespace SpotifyToolsLib.Spotify
             CheckForResponseErrors(json);
 
             SpotifyPlaylist toReturn = JsonConvert.DeserializeObject<SpotifyPlaylist>(json, new JsonSerializerSettings());
+            _Log.InfoFormat("Playlists created,{0} [ID: {1}]", toReturn.name, toReturn.id);
 
             return toReturn;
         }
@@ -147,9 +156,7 @@ namespace SpotifyToolsLib.Spotify
                 string message = string.Format("{0}: {1}", responseError.error.status, responseError.error.message);
                 throw new Exception(message);
             };
-
         }
-
 
         public async Task<User> GetCurrentUser()
         {
