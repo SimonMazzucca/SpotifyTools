@@ -67,6 +67,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Extensions.cs" />
     <Compile Include="BaseAdapter.cs" />
     <Compile Include="iTunes\iTunesAdapter.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

@@ -56,12 +56,12 @@ namespace SpotifyToolsLib.Spotify
                 string songUri = GetSongUri(song).Result;
                 if (string.IsNullOrEmpty(songUri))
                 {
-                    _Log.InfoFormat("Song not found,{0} - {1}", song.Artist, song.Name);
+                    _Log.InfoFormat("Song not found,\"{0} - {1}\"", song.Artist.ToLogSafe(), song.Name.ToLogSafe());
                 }
                 else
                 {
                     songUris.Add(songUri);
-                    _Log.DebugFormat("Song added,{0} - {1}", song.Artist, song.Name);
+                    _Log.DebugFormat("Song added,\"{0} - {1}\"", song.Artist, song.Name);
                 }
             }
             dynamic postData = new System.Dynamic.ExpandoObject();
@@ -82,15 +82,24 @@ namespace SpotifyToolsLib.Spotify
             CheckForResponseErrors(json);
 
             SpotifyTracks response = JsonConvert.DeserializeObject<SpotifyTracks>(json, new JsonSerializerSettings());
-
-            // Assuming item 0 is the one with highest popularity
             Item[] songsFound = response?.tracks?.items;
+
+            // Nothing at all found
             if (songsFound == null || songsFound.Length == 0 || songsFound[0].artists == null)
                 return "";
-            else if (songsFound[0].name != song.Name || songsFound[0].artists[0].name != song.Artist)
-                return "";
-            else
-                return songsFound[0].uri;
+
+            // Find best match
+            foreach (var candidate in songsFound)
+            {
+                // Ignore "(with" and "[" in my songs
+                if (candidate.name.ToLower() != song.JustName.ToLower())
+                    continue;
+                // Ignore "The " on either side
+                if (candidate.artists[0].name.TrimThe().ToLower() == song.Artist.TrimThe().ToLower())
+                    return candidate.uri;
+            }
+
+            return "";
         }
 
         public bool PlaylistExists(string name)

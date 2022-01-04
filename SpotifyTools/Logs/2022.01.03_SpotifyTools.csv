@@ -1,0 +1,80 @@
+DateTime,Level,Location,Message,Details
+01/03/2022 06:56:22,INFO,SpotifyTools.Program,SpotifyTool Version,1.0.0.1
+01/03/2022 06:56:23,INFO,SpotifyToolsLib.Spotify.SpotifyAdapter,Playlists found,20
+01/03/2022 06:56:23,INFO,SpotifyToolsLib.Spotify.SpotifyAdapter,Creating playlist,!Tonight
+01/03/2022 06:56:23,INFO,SpotifyToolsLib.Spotify.SpotifyAdapter,Playlists created,!Tonight [ID: 79P76WmXJ96MURGWZ6iMci]
+01/03/2022 06:56:23,DEBUG,SpotifyToolsLib.Spotify.SpotifyAdapter,Song added,Adele - Rolling In The Deep
+01/03/2022 06:56:24,DEBUG,SpotifyToolsLib.Spotify.SpotifyAdapter,Song added,Aerosmith - I Don't Want To Miss A Thing
+01/03/2022 06:56:24,INFO,SpotifyToolsLib.Spotify.SpotifyAdapter,Song not found,Alan Parsons Project - Eye In The Sky (Eric Woolfson)
+01/03/2022 06:56:24,DEBUG,SpotifyToolsLib.Spotify.SpotifyAdapter,Song added,Aretha Franklin - I Say A Little Prayer
+01/03/2022 06:56:24,DEBUG,SpotifyToolsLib.Spotify.SpotifyAdapter,Song added,Art Garfunkel - A Heart In New York
+01/03/2022 06:56:24,DEBUG,SpotifyToolsLib.Spotify.SpotifyAdapter,Song added,The B-52's - Love Shack
+DateTime,Level,Location,Message,Details
+01/03/2022 06:57:28,INFO,SpotifyTools.Program,SpotifyTool Version,1.0.0.1
+01/03/2022 06:57:28,INFO,SpotifyToolsLib.Spotify.SpotifyAdapter,Playlists found,20
+01/03/2022 06:57:29,INFO,SpotifyToolsLib.Spotify.SpotifyAdapter,Creating playlist,!Tonight
+01/03/2022 06:57:29,INFO,SpotifyToolsLib.Spotify.SpotifyAdapter,Playlists created,!Tonight [ID: 4YCwXK01zVp61AX7EUW5Fm]
+01/03/2022 06:57:29,DEBUG,SpotifyToolsLib.Spotify.SpotifyAdapter,Song added,Adele - Rolling In The Deep
+01/03/2022 06:57:29,DEBUG,SpotifyToolsLib.Spotify.SpotifyAdapter,Song added,Aerosmith - I Don't Want To Miss A Thing
+01/03/2022 06:57:29,INFO,SpotifyToolsLib.Spotify.SpotifyAdapter,Song not found,Alan Parsons Project - Eye In The Sky (Eric Woolfson)
+01/03/2022 06:57:30,DEBUG,SpotifyToolsLib.Spotify.SpotifyAdapter,Song added,Aretha Franklin - I Say A Little Prayer
+01/03/2022 06:57:30,DEBUG,SpotifyToolsLib.Spotify.SpotifyAdapter,Song added,Art Garfunkel - A Heart In New York
+01/03/2022 06:57:30,DEBUG,SpotifyToolsLib.Spotify.SpotifyAdapter,Song added,The B-52's - Love Shack
+01/03/2022 06:57:30,DEBUG,SpotifyToolsLib.Spotify.SpotifyAdapter,Song added,Billy Idol - White Wedding
+01/03/2022 06:57:30,DEBUG,SpotifyToolsLib.Spotify.SpotifyAdapter,Song added,Bob Dylan - Jokerman
+01/03/2022 06:57:34,INFO,SpotifyToolsLib.Spotify.SpotifyAdapter,Song not found,Boz Scaggs - We're All Alone
+01/03/2022 06:57:34,DEBUG,SpotifyToolsLib.Spotify.SpotifyAdapter,Song added,Bread - Aubrey
+01/03/2022 06:57:35,DEBUG,SpotifyToolsLib.Spotify.SpotifyAdapter,Song added,Chicago - Saturday In The Park
+01/03/2022 06:57:37,INFO,SpotifyToolsLib.Spotify.SpotifyAdapter,Song not found,Colin Hay - Overkill (Acoustic)
+01/03/2022 06:57:38,DEBUG,SpotifyToolsLib.Spotify.SpotifyAdapter,Song added,Cream - White Room
+01/03/2022 06:57:38,INFO,SpotifyToolsLib.Spotify.SpotifyAdapter,Song not found,CSN - Just A Song Before I Go
+01/03/2022 06:57:38,INFO,SpotifyToolsLib.Spotify.SpotifyAdapter,Song not found,CSN&Y - Carry On
+01/03/2022 06:57:39,INFO,SpotifyToolsLib.Spotify.SpotifyAdapter,Song not found,Daft Punk - Get Lucky
+01/03/2022 06:57:39,DEBUG,SpotifyToolsLib.Spotify.SpotifyAdapter,Song added,Dead Or Alive - You Spin Me Round (Like a Record)
+01/03/2022 06:57:40,INFO,SpotifyToolsLib.Spotify.SpotifyAdapter,Song not found,Dick Dale - Pipeline (With Stevie Ray Vaughan)
+01/03/2022 06:57:40,DEBUG,SpotifyToolsLib.Spotify.SpotifyAdapter,Song added,Dire Straits - Sultans Of Swing
+01/03/2022 06:57:40,DEBUG,SpotifyToolsLib.Spotify.SpotifyAdapter,Song added,Donna Summer - Last Dance
+01/03/2022 06:57:40,DEBUG,SpotifyToolsLib.Spotify.SpotifyAdapter,Song added,Donna Summer - Hot Stuff
+01/03/2022 06:57:40,DEBUG,SpotifyToolsLib.Spotify.SpotifyAdapter,Song added,Doobie Brothers - Long Train Runnin'
+01/03/2022 06:57:41,DEBUG,SpotifyToolsLib.Spotify.SpotifyAdapter,Song added,The Doors - Roadhouse Blues
+01/03/2022 06:57:41,DEBUG,SpotifyToolsLib.Spotify.SpotifyAdapter,Song added,"Earth, Wind & Fire" - Boogie Wonderland
+01/03/2022 06:57:41,DEBUG,SpotifyToolsLib.Spotify.SpotifyAdapter,Song added,Elton John - Blue Eyes
+01/03/2022 06:57:41,DEBUG,SpotifyToolsLib.Spotify.SpotifyAdapter,Song added,Fastball - The Way
+01/03/2022 06:57:41,DEBUG,SpotifyToolsLib.Spotify.SpotifyAdapter,Song added,Fleetwood Mac - Landslide
+01/03/2022 06:57:42,DEBUG,SpotifyToolsLib.Spotify.SpotifyAdapter,Song added,Genesis - Abacab
+01/03/2022 06:57:42,DEBUG,SpotifyToolsLib.Spotify.SpotifyAdapter,Song added,Genesis - Turn It On Again
+01/03/2022 06:58:21,INFO,SpotifyToolsLib.Spotify.SpotifyAdapter,Song not found,Giacomo Puccini - "Sì, mi chiamano Mimì"
+01/03/2022 06:58:24,INFO,SpotifyToolsLib.Spotify.SpotifyAdapter,Song not found,Glenn Miller - Sing Sing Sing
+01/03/2022 06:58:25,DEBUG,SpotifyToolsLib.Spotify.SpotifyAdapter,Song added,Golden Earring - Radar Love
+01/03/2022 06:58:25,DEBUG,SpotifyToolsLib.Spotify.SpotifyAdapter,Song added,The Hollies - Stop Right There
+01/03/2022 06:58:25,DEBUG,SpotifyToolsLib.Spotify.SpotifyAdapter,Song added,Ides Of March - Vehicle
+01/03/2022 06:58:25,DEBUG,SpotifyToolsLib.Spotify.SpotifyAdapter,Song added,Joe Bonamassa - Blue And Evil
+01/03/2022 06:58:25,DEBUG,SpotifyToolsLib.Spotify.SpotifyAdapter,Song added,Joe Satriani - Summer Song
+01/03/2022 06:58:25,INFO,SpotifyToolsLib.Spotify.SpotifyAdapter,Song not found,Kylie Minogue - Can't Get You Out Of My Head
+01/03/2022 06:58:25,DEBUG,SpotifyToolsLib.Spotify.SpotifyAdapter,Song added,Laura Pausini - Se non te
+01/03/2022 06:58:26,DEBUG,SpotifyToolsLib.Spotify.SpotifyAdapter,Song added,Lenny Kravitz - Are You Gonna Go My Way
+01/03/2022 06:58:26,DEBUG,SpotifyToolsLib.Spotify.SpotifyAdapter,Song added,Louis Armstrong - What A Wonderful World
+01/03/2022 06:58:26,DEBUG,SpotifyToolsLib.Spotify.SpotifyAdapter,Song added,Marvin Gaye - I Heard It Through The Grapevine [Gladys Knight & The Pips]
+01/03/2022 06:58:26,DEBUG,SpotifyToolsLib.Spotify.SpotifyAdapter,Song added,Mason Williams - Classical Gas
+01/03/2022 06:58:27,DEBUG,SpotifyToolsLib.Spotify.SpotifyAdapter,Song added,Michael Jackson - Thriller
+01/03/2022 06:58:27,DEBUG,SpotifyToolsLib.Spotify.SpotifyAdapter,Song added,Moby - Natural Blues [Traditional]
+01/03/2022 06:58:28,INFO,SpotifyToolsLib.Spotify.SpotifyAdapter,Song not found,OST - As Time Goes By
+01/03/2022 06:58:29,INFO,SpotifyToolsLib.Spotify.SpotifyAdapter,Song not found,OST - Summertime
+01/03/2022 06:58:29,DEBUG,SpotifyToolsLib.Spotify.SpotifyAdapter,Song added,Otis Redding - I Can't Turn You Loose
+01/03/2022 06:58:29,DEBUG,SpotifyToolsLib.Spotify.SpotifyAdapter,Song added,Otis Redding - Try A Little Tenderness
+01/03/2022 06:58:30,DEBUG,SpotifyToolsLib.Spotify.SpotifyAdapter,Song added,Patrick Hernandez - Born To Be Alive
+01/03/2022 06:58:30,DEBUG,SpotifyToolsLib.Spotify.SpotifyAdapter,Song added,Paul Simon - Kodachrome
+01/03/2022 06:58:30,DEBUG,SpotifyToolsLib.Spotify.SpotifyAdapter,Song added,Paul Simon - American Tune
+01/03/2022 06:58:30,DEBUG,SpotifyToolsLib.Spotify.SpotifyAdapter,Song added,The Police - Message In A Bottle
+01/03/2022 06:58:31,DEBUG,SpotifyToolsLib.Spotify.SpotifyAdapter,Song added,Rodrigo Y Gabriela - Ixtapa
+01/03/2022 06:58:31,DEBUG,SpotifyToolsLib.Spotify.SpotifyAdapter,Song added,Rodrigo Y Gabriela - Hanuman
+01/03/2022 06:58:31,DEBUG,SpotifyToolsLib.Spotify.SpotifyAdapter,Song added,Seal - Kiss From A Rose
+01/03/2022 06:58:31,DEBUG,SpotifyToolsLib.Spotify.SpotifyAdapter,Song added,Styx - Fooling Yourself (The Angry Young Man)
+01/03/2022 06:58:31,DEBUG,SpotifyToolsLib.Spotify.SpotifyAdapter,Song added,Supertramp - Breakfast In America
+01/03/2022 06:58:32,DEBUG,SpotifyToolsLib.Spotify.SpotifyAdapter,Song added,Supertramp - The Logical Song
+01/03/2022 06:58:32,DEBUG,SpotifyToolsLib.Spotify.SpotifyAdapter,Song added,Supertramp - Take The Long Way Home
+01/03/2022 06:58:32,DEBUG,SpotifyToolsLib.Spotify.SpotifyAdapter,Song added,Toto - Rosanna
+01/03/2022 06:58:32,DEBUG,SpotifyToolsLib.Spotify.SpotifyAdapter,Song added,Toto - Africa
+01/03/2022 06:58:32,DEBUG,SpotifyToolsLib.Spotify.SpotifyAdapter,Song added,U2 - Pride (In The Name Of Love)
+01/03/2022 06:58:33,DEBUG,SpotifyToolsLib.Spotify.SpotifyAdapter,Song added,The Zombies - She's Not There
+01/03/2022 06:58:33,INFO,SpotifyTools.Program,Donzo. This was fun.
