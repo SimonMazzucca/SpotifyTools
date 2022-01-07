@@ -17,6 +17,7 @@ namespace SpotifyToolsLib.Spotify
     public class SpotifyAdapter : BaseAdapter
     {
         private readonly ILog _Log = LogManager.GetLogger(MethodBase.GetCurrentMethod().DeclaringType);
+        private const int SONGS_PER_REQ = 50;
 
         public SpotifyAdapter() : base()
         {
@@ -47,21 +48,37 @@ namespace SpotifyToolsLib.Spotify
             }
         }
 
-        public async Task<bool> AddSongsToPlaylist(SpotifyPlaylist playlist, IList<Song> songs)
+        public bool AddSongsToPlaylist(SpotifyPlaylist playlist, IList<Song> songs)
+        {
+            int requests = (songs.Count - 1) / SONGS_PER_REQ + 1;
+
+            for (int i = 0; i < requests; i++)
+            {
+                AddSongsToPlaylistPartial(playlist, songs, i);
+            }
+
+            return true;
+        }
+
+        private void AddSongsToPlaylistPartial(SpotifyPlaylist playlist, IList<Song> songs, int iteration)
         {
             List<string> songUris = new List<string>();
+            int fromIndex = iteration * SONGS_PER_REQ;
+            int toIndex = Math.Min(songs.Count - 1, fromIndex + SONGS_PER_REQ);
 
-            foreach (Song song in songs)
+            // TODO: am I missing the last song here?
+            for (int i = fromIndex; i < toIndex; i++)
             {
+                Song song = songs[i];
                 string songUri = GetSongUri(song).Result;
                 if (string.IsNullOrEmpty(songUri))
                 {
-                    _Log.InfoFormat("Song not found,\"{0} - {1}\"", song.Artist.ToLogSafe(), song.Name.ToLogSafe());
+                    _Log.InfoFormat("[{2}/{3}] Song not found,\"{0} - {1}\"", song.Artist.ToLogSafe(), song.Name.ToLogSafe(), i + 1, songs.Count);
                 }
                 else
                 {
                     songUris.Add(songUri);
-                    _Log.DebugFormat("Song added,\"{0} - {1}\"", song.Artist, song.Name);
+                    _Log.DebugFormat("[{2}/{3}] Song added,\"{0} - {1}\"", song.Artist, song.Name, i + 1, songs.Count);
                 }
             }
             dynamic postData = new System.Dynamic.ExpandoObject();
@@ -69,10 +86,8 @@ namespace SpotifyToolsLib.Spotify
 
             string header = JsonConvert.SerializeObject(postData);
             string url = string.Format("https://api.spotify.com/v1/playlists/{0}/tracks", playlist.id);
-            string json = await HttpHelper.Post(url, this.AuthenticationToken, header);
+            string json = HttpHelper.Post(url, this.AuthenticationToken, header).Result;
             CheckForResponseErrors(json);
-
-            return true;
         }
 
         private async Task<string> GetSongUri(Song song)

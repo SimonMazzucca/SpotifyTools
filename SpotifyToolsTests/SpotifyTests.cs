@@ -22,7 +22,7 @@ namespace SpotifyToolsTests
         }
 
         [Test]
-        public async Task TestSpotifyAdapter_CreatePlaylistFromCsvFileAsync()
+        public void TestSpotifyAdapter_CreatePlaylistFromCsvFileAsync()
         {
             string playlistFile = GetFullPath("Basic_Playlist.txt");
             CsvPlaylistRepo repo = new CsvPlaylistRepo();
@@ -37,7 +37,7 @@ namespace SpotifyToolsTests
                 Assert.AreEqual(PLAYLIST_TO_CREATE, playlist.name);
             }
 
-            await spotify.AddSongsToPlaylist(playlist, songsToImport.Songs);
+            spotify.AddSongsToPlaylist(playlist, songsToImport.Songs);
 
             SpotifyPlaylist playlistNew = spotify.GetPlaylist(PLAYLIST_TO_CREATE);
 
