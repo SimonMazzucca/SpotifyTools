@@ -28,3 +28,6 @@ https://open.spotify.com/collection/playlists
 //Postman Tutorial
 https://blog.getpostman.com/2016/11/09/generate-spotify-playlists-using-a-postman-collection/
 
+
+//JSON Viewer (that jhandles escaped chars)
+https://www.freeformatter.com/json-escape.html#ad-output

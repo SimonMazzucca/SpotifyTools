@@ -3,7 +3,7 @@
     "ApiBaseUrl": "https://api.spotify.com/v1",
     "AuthKeyUrl": "https://accounts.spotify.com/api/token",
     "AuthToken": {
-      "AccessToken": "BQDbi8E4w4Vl8LAQD3tV10PsLEkkjElMyjywVmw6hMbmW412fLn14uFNNSDHJI8zD2v3VFlmmB0wT2K4_UOs8Rt2YFlXa1ajlVFMBcv3w0Y71qFmr6qaJ36y_uS8WxCyF-Su3avg9KjxsH_UVo6ZEtzRJ4leSsbarNMo_H-OxElZoNyzBlyXU0kyYLe7JyBN",
+      "AccessToken": "BQBmu785wV5YBG1s6UOrxPVG1SpKCWriUU3q75VaT1emnErbHW_X6Q-JNxyeKdQ4jCyezZOzRi3Q2oQd7ePlJ4PpN4PIsTQSzcgap8dweekpGpMhzhJdB3rdVnQKYl-_3usZUDWnkPUpewDP4cuJPgXQ7wYXKMe67rglus4J8ZIt5Uscu_F9r1kyMGrgBxguaAO9ybDioLUJ-M4hR0xECn_V0ZuV2w",
       "ExpiresOn": "06/02/2019",
       "RefreshToken": "AQD8Eix1bOZW7fz5GqS0kT5vaMG1L8J0BVv2Zhu_hUH3GUk-rePA5CdY7HHx1cCHeSALEcTVJVk07cNpAVIeHS6VpNIrDobcwv2pzkDoWIfolrC1xCIADAvLug6hreeVuS8",
       "TokenType": "Bearer"

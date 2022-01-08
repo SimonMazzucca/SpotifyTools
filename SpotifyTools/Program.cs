@@ -17,7 +17,8 @@ namespace SpotifyTools
             {
                 _Log.InfoFormat("SpotifyTool Version,{0}", Assembly.GetExecutingAssembly().GetName().Version.ToString());
                 Runner runner = new Runner();
-                runner.CreatePlaylist("!Tonight");
+                //runner.CreatePlaylist("!Tonight");
+                runner.SortPlaylist("New Releases");
             }
             catch (Exception ex)
             {

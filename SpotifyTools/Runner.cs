@@ -19,11 +19,11 @@ namespace SpotifyTools
         public void CreatePlaylist(string playlistName)
         {
             // Abort if playlist already exists
-            if (_spotify.PlaylistExists(playlistName))
+            if (_spotify.PlaylistExists(playlistName) != null)
             {
                 _Log.InfoFormat("Playlist already exists,{0}", playlistName);
                 return;
-            }    
+            }
 
             // Get playlist from iTunes
             IList<Playlist> playlists = _iTunes.GetPlaylists();
@@ -34,6 +34,24 @@ namespace SpotifyTools
             SpotifyPlaylist spotifyPlaylist = _spotify.CreatePlaylist(playlistName, false).Result;
             _spotify.AddSongsToPlaylist(spotifyPlaylist, songsToImport.Songs);
         }
+
+        public void SortPlaylist(string playlistName)
+        {
+            SpotifyPlaylist spotifyPlaylist = _spotify.PlaylistExists(playlistName);
+
+            if (spotifyPlaylist == null)
+            {
+                // Abort if playlist already exists
+                _Log.InfoFormat("Playlist does not exist,{0}", playlistName);
+            }
+            else
+            {
+                // Sort
+                _spotify.SortPlaylist(spotifyPlaylist);
+            }
+        }
+
+
 
     }
 }

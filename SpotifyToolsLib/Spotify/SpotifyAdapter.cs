@@ -48,6 +48,31 @@ namespace SpotifyToolsLib.Spotify
             }
         }
 
+        /// <summary>
+        /// API: https://developer.spotify.com/documentation/web-api/reference/#/operations/reorder-or-replace-playlists-tracks
+        /// 
+        /// Header:
+        /// {
+        ///     "range_start": 1,
+        ///     "insert_before": 3,
+        ///     "range_length": 2
+        /// }
+        /// 
+        /// Scope:
+        /// Had to add: playlist-modify-public
+        /// </summary>
+        public void SortPlaylist(SpotifyPlaylist playlist)
+        {
+            dynamic postData = new System.Dynamic.ExpandoObject();
+            postData.range_start = 13;
+            postData.insert_before = 0;
+
+            string header = JsonConvert.SerializeObject(postData);
+            string url = string.Format("https://api.spotify.com/v1/playlists/{0}/tracks", playlist.id);
+            string json = HttpHelper.Put(url, this.AuthenticationToken, header).Result;
+            CheckForResponseErrors(json);
+        }
+
         public bool AddSongsToPlaylist(SpotifyPlaylist playlist, IList<Song> songs)
         {
             int requests = (songs.Count - 1) / SONGS_PER_REQ + 1;
@@ -117,15 +142,21 @@ namespace SpotifyToolsLib.Spotify
             return "";
         }
 
-        public bool PlaylistExists(string name)
+        public SpotifyPlaylist PlaylistExists(string name)
         {
             SpotifyPlaylist found = GetPlaylist(name);
-            return found != null;
+            return found;
         }
 
         public SpotifyPlaylist GetPlaylist(string name)
         {
             List<SpotifyPlaylist> all = GetAllPlaylists().Result;
+
+            foreach (var item in all)
+            {
+                _Log.Info(item.name);
+            }
+
             SpotifyPlaylist toReturn = all.FirstOrDefault(p => p.name.Equals(name));
 
             return toReturn;
@@ -144,10 +175,18 @@ namespace SpotifyToolsLib.Spotify
             SpotifyPlaylistCollection partial = JsonConvert.DeserializeObject<SpotifyPlaylistCollection>(json, new JsonSerializerSettings());
             List<SpotifyPlaylist> toReturn = new List<SpotifyPlaylist>(partial.items);
 
-            if (toReturn.Count == 50)
-                _Log.Warn("50 playlists found, some might be missing");
-            else
+            while (!string.IsNullOrEmpty(partial.next))
+            {
+                json = await HttpHelper.Get(partial.next, this.AuthenticationToken, true);
+                CheckForResponseErrors(json);
+                partial = JsonConvert.DeserializeObject<SpotifyPlaylistCollection>(json, new JsonSerializerSettings());
+                toReturn.AddRange(partial.items);
+
+            }
+            if (partial.total == toReturn.Count)
                 _Log.InfoFormat("Playlists found,{0}", toReturn.Count);
+            else
+                _Log.InfoFormat("Retrieved only {1} playlists out of {1}", toReturn.Count, partial.total);
 
             return toReturn;
         }
