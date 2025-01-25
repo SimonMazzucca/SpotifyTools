@@ -157,3 +157,69 @@ DateTime,Level,Location,Message,Details
 01/08/2022 09:48:00,INFO,SpotifyToolsLib.Spotify.SpotifyAdapter,Shazam
 01/08/2022 09:48:00,INFO,SpotifyToolsLib.Spotify.SpotifyAdapter,My Shazam Tracks
 01/08/2022 09:48:22,INFO,SpotifyTools.Program,Donzo. This was fun.
+DateTime,Level,Location,Message,Details
+01/08/2022 09:58:13,INFO,SpotifyTools.Program,SpotifyTool Version,1.0.0.1
+01/08/2022 09:58:22,INFO,SpotifyToolsLib.Spotify.SpotifyAdapter,Playlists found,30
+01/08/2022 09:58:22,INFO,SpotifyToolsLib.Spotify.SpotifyAdapter,All music
+01/08/2022 09:58:22,INFO,SpotifyToolsLib.Spotify.SpotifyAdapter,Something for Everybody
+01/08/2022 09:58:22,INFO,SpotifyToolsLib.Spotify.SpotifyAdapter,Podcasts
+01/08/2022 09:58:22,INFO,SpotifyToolsLib.Spotify.SpotifyAdapter,Piano (Practice)
+01/08/2022 09:58:22,INFO,SpotifyToolsLib.Spotify.SpotifyAdapter,Piano
+01/08/2022 09:58:22,INFO,SpotifyToolsLib.Spotify.SpotifyAdapter,Mandolin
+01/08/2022 09:58:22,INFO,SpotifyToolsLib.Spotify.SpotifyAdapter,Guitar
+01/08/2022 09:58:22,INFO,SpotifyToolsLib.Spotify.SpotifyAdapter,Ukulele
+01/08/2022 09:58:22,INFO,SpotifyToolsLib.Spotify.SpotifyAdapter,Bass
+01/08/2022 09:58:22,INFO,SpotifyToolsLib.Spotify.SpotifyAdapter,The Struts
+01/08/2022 09:58:22,INFO,SpotifyToolsLib.Spotify.SpotifyAdapter,Classic & Hard Rock
+01/08/2022 09:58:22,INFO,SpotifyToolsLib.Spotify.SpotifyAdapter,Queen
+01/08/2022 09:58:22,INFO,SpotifyToolsLib.Spotify.SpotifyAdapter,’80s Hard Rock
+01/08/2022 09:58:22,INFO,SpotifyToolsLib.Spotify.SpotifyAdapter,Dream Theater
+01/08/2022 09:58:22,INFO,SpotifyToolsLib.Spotify.SpotifyAdapter,Metallica Easy on Your Ears
+01/08/2022 09:58:22,INFO,SpotifyToolsLib.Spotify.SpotifyAdapter,Old School Metal
+01/08/2022 09:58:22,INFO,SpotifyToolsLib.Spotify.SpotifyAdapter,Thrash Metal Classics
+01/08/2022 09:58:22,INFO,SpotifyToolsLib.Spotify.SpotifyAdapter,70s & 80s Acoustic
+01/08/2022 09:58:22,INFO,SpotifyToolsLib.Spotify.SpotifyAdapter,The Simone and Emme Duets Special
+01/08/2022 09:58:22,INFO,SpotifyToolsLib.Spotify.SpotifyAdapter,Elton
+01/08/2022 09:58:22,INFO,SpotifyToolsLib.Spotify.SpotifyAdapter,Classic Rock Duets
+01/08/2022 09:58:22,INFO,SpotifyToolsLib.Spotify.SpotifyAdapter,Soft Rock &  Pop - 60s, 70s, 80s
+01/08/2022 09:58:22,INFO,SpotifyToolsLib.Spotify.SpotifyAdapter,Ballads
+01/08/2022 09:58:22,INFO,SpotifyToolsLib.Spotify.SpotifyAdapter,Pop music I like
+01/08/2022 09:58:22,INFO,SpotifyToolsLib.Spotify.SpotifyAdapter,Bahamas
+01/08/2022 09:58:22,INFO,SpotifyToolsLib.Spotify.SpotifyAdapter,Come From Away
+01/08/2022 09:58:22,INFO,SpotifyToolsLib.Spotify.SpotifyAdapter,Hamilton
+01/08/2022 09:58:22,INFO,SpotifyToolsLib.Spotify.SpotifyAdapter,New Releases
+01/08/2022 09:58:22,INFO,SpotifyToolsLib.Spotify.SpotifyAdapter,Shazam
+01/08/2022 09:58:22,INFO,SpotifyToolsLib.Spotify.SpotifyAdapter,My Shazam Tracks
+DateTime,Level,Location,Message,Details
+01/08/2022 10:01:12,INFO,SpotifyTools.Program,SpotifyTool Version,1.0.0.1
+01/08/2022 10:01:13,INFO,SpotifyToolsLib.Spotify.SpotifyAdapter,Playlists found,30
+01/08/2022 10:01:13,INFO,SpotifyToolsLib.Spotify.SpotifyAdapter,All music
+01/08/2022 10:01:13,INFO,SpotifyToolsLib.Spotify.SpotifyAdapter,Something for Everybody
+01/08/2022 10:01:13,INFO,SpotifyToolsLib.Spotify.SpotifyAdapter,Podcasts
+01/08/2022 10:01:13,INFO,SpotifyToolsLib.Spotify.SpotifyAdapter,Piano (Practice)
+01/08/2022 10:01:13,INFO,SpotifyToolsLib.Spotify.SpotifyAdapter,Piano
+01/08/2022 10:01:13,INFO,SpotifyToolsLib.Spotify.SpotifyAdapter,Mandolin
+01/08/2022 10:01:13,INFO,SpotifyToolsLib.Spotify.SpotifyAdapter,Guitar
+01/08/2022 10:01:13,INFO,SpotifyToolsLib.Spotify.SpotifyAdapter,Ukulele
+01/08/2022 10:01:13,INFO,SpotifyToolsLib.Spotify.SpotifyAdapter,Bass
+01/08/2022 10:01:13,INFO,SpotifyToolsLib.Spotify.SpotifyAdapter,The Struts
+01/08/2022 10:01:13,INFO,SpotifyToolsLib.Spotify.SpotifyAdapter,Classic & Hard Rock
+01/08/2022 10:01:13,INFO,SpotifyToolsLib.Spotify.SpotifyAdapter,Queen
+01/08/2022 10:01:13,INFO,SpotifyToolsLib.Spotify.SpotifyAdapter,’80s Hard Rock
+01/08/2022 10:01:13,INFO,SpotifyToolsLib.Spotify.SpotifyAdapter,Dream Theater
+01/08/2022 10:01:13,INFO,SpotifyToolsLib.Spotify.SpotifyAdapter,Metallica Easy on Your Ears
+01/08/2022 10:01:13,INFO,SpotifyToolsLib.Spotify.SpotifyAdapter,Old School Metal
+01/08/2022 10:01:13,INFO,SpotifyToolsLib.Spotify.SpotifyAdapter,Thrash Metal Classics
+01/08/2022 10:01:13,INFO,SpotifyToolsLib.Spotify.SpotifyAdapter,70s & 80s Acoustic
+01/08/2022 10:01:13,INFO,SpotifyToolsLib.Spotify.SpotifyAdapter,The Simone and Emme Duets Special
+01/08/2022 10:01:13,INFO,SpotifyToolsLib.Spotify.SpotifyAdapter,Elton
+01/08/2022 10:01:13,INFO,SpotifyToolsLib.Spotify.SpotifyAdapter,Classic Rock Duets
+01/08/2022 10:01:13,INFO,SpotifyToolsLib.Spotify.SpotifyAdapter,Soft Rock &  Pop - 60s, 70s, 80s
+01/08/2022 10:01:13,INFO,SpotifyToolsLib.Spotify.SpotifyAdapter,Ballads
+01/08/2022 10:01:13,INFO,SpotifyToolsLib.Spotify.SpotifyAdapter,Pop music I like
+01/08/2022 10:01:13,INFO,SpotifyToolsLib.Spotify.SpotifyAdapter,Bahamas
+01/08/2022 10:01:13,INFO,SpotifyToolsLib.Spotify.SpotifyAdapter,Come From Away
+01/08/2022 10:01:13,INFO,SpotifyToolsLib.Spotify.SpotifyAdapter,Hamilton
+01/08/2022 10:01:13,INFO,SpotifyToolsLib.Spotify.SpotifyAdapter,New Releases
+01/08/2022 10:01:13,INFO,SpotifyToolsLib.Spotify.SpotifyAdapter,Shazam
+01/08/2022 10:01:13,INFO,SpotifyToolsLib.Spotify.SpotifyAdapter,My Shazam Tracks

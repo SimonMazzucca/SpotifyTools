@@ -47,7 +47,8 @@ namespace SpotifyTools
             else
             {
                 // Sort
-                _spotify.SortPlaylist(spotifyPlaylist);
+                _spotify.LoadPlaylist(spotifyPlaylist);
+                //_spotify.SortPlaylist(spotifyPlaylist);
             }
         }
 

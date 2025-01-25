@@ -31,3 +31,7 @@ https://blog.getpostman.com/2016/11/09/generate-spotify-playlists-using-a-postma
 
 //JSON Viewer (that jhandles escaped chars)
 https://www.freeformatter.com/json-escape.html#ad-output
+
+
+//Spotify Forum
+https://community.spotify.com/t5/Spotify-for-Developers/bd-p/Spotify_Developer

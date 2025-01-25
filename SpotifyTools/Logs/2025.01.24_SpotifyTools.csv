@@ -1,0 +1,273 @@
+DateTime,Level,Location,Message,Details
+01/24/2025 05:12:27,INFO,SpotifyTools.Program,SpotifyTool Version,1.0.0.1
+DateTime,Level,Location,Message,Details
+01/24/2025 05:18:33,INFO,SpotifyTools.Program,SpotifyTool Version,1.0.0.1
+DateTime,Level,Location,Message,Details
+01/24/2025 05:20:10,INFO,SpotifyTools.Program,SpotifyTool Version,1.0.0.1
+01/24/2025 05:20:13,INFO,SpotifyToolsLib.Spotify.SpotifyAdapter,Playlists found,58
+01/24/2025 05:20:13,INFO,SpotifyToolsLib.Spotify.SpotifyAdapter,Memories
+01/24/2025 05:20:13,INFO,SpotifyToolsLib.Spotify.SpotifyAdapter,Podcasts
+01/24/2025 05:20:13,INFO,SpotifyToolsLib.Spotify.SpotifyAdapter,Something for Everybody
+01/24/2025 05:20:13,INFO,SpotifyToolsLib.Spotify.SpotifyAdapter,Dance Along
+01/24/2025 05:20:13,INFO,SpotifyToolsLib.Spotify.SpotifyAdapter,Bass (Pop/Rock)
+01/24/2025 05:20:13,INFO,SpotifyToolsLib.Spotify.SpotifyAdapter,Karaoke (S)
+01/24/2025 05:20:13,INFO,SpotifyToolsLib.Spotify.SpotifyAdapter,Piano (New)
+01/24/2025 05:20:13,INFO,SpotifyToolsLib.Spotify.SpotifyAdapter,Karaoke (M)
+01/24/2025 05:20:13,INFO,SpotifyToolsLib.Spotify.SpotifyAdapter,Power Trio
+01/24/2025 05:20:13,INFO,SpotifyToolsLib.Spotify.SpotifyAdapter,Piano (By heart)
+01/24/2025 05:20:13,INFO,SpotifyToolsLib.Spotify.SpotifyAdapter,Piano (Practice 1)
+01/24/2025 05:20:13,INFO,SpotifyToolsLib.Spotify.SpotifyAdapter,Piano (Practice 2)
+01/24/2025 05:20:13,INFO,SpotifyToolsLib.Spotify.SpotifyAdapter,Piano
+01/24/2025 05:20:13,INFO,SpotifyToolsLib.Spotify.SpotifyAdapter,Mandolin
+01/24/2025 05:20:13,INFO,SpotifyToolsLib.Spotify.SpotifyAdapter,Guitar
+01/24/2025 05:20:13,INFO,SpotifyToolsLib.Spotify.SpotifyAdapter,Ukulele
+01/24/2025 05:20:13,INFO,SpotifyToolsLib.Spotify.SpotifyAdapter,Bass (Hard Rock/Metal)
+01/24/2025 05:20:13,INFO,SpotifyToolsLib.Spotify.SpotifyAdapter,2024.11.04 David Gilmour
+01/24/2025 05:20:13,INFO,SpotifyToolsLib.Spotify.SpotifyAdapter,2024.08.07 Journey
+01/24/2025 05:20:13,INFO,SpotifyToolsLib.Spotify.SpotifyAdapter,2024.08.07 Def Leppard
+01/24/2025 05:20:13,INFO,SpotifyToolsLib.Spotify.SpotifyAdapter,2024.07.17 Foo Fighters
+01/24/2025 05:20:13,INFO,SpotifyToolsLib.Spotify.SpotifyAdapter,2024.07.17 Mammoth WVH
+01/24/2025 05:20:13,INFO,SpotifyToolsLib.Spotify.SpotifyAdapter,2024.06.30 Brandi Carlile
+01/24/2025 05:20:13,INFO,SpotifyToolsLib.Spotify.SpotifyAdapter,2024.06.06 Dead Daisies
+01/24/2025 05:20:13,INFO,SpotifyToolsLib.Spotify.SpotifyAdapter,2024.04.06 Laura Pausini
+01/24/2025 05:20:13,INFO,SpotifyToolsLib.Spotify.SpotifyAdapter,2023.11.22 Billy Joel
+01/24/2025 05:20:13,INFO,SpotifyToolsLib.Spotify.SpotifyAdapter,2024.04.27 The Black Crowes
+01/24/2025 05:20:13,INFO,SpotifyToolsLib.Spotify.SpotifyAdapter,2023.06.23 Avenged Sevenfold
+01/24/2025 05:20:13,INFO,SpotifyToolsLib.Spotify.SpotifyAdapter,2023.06.00 Chopin
+01/24/2025 05:20:13,INFO,SpotifyToolsLib.Spotify.SpotifyAdapter,2021.09.17 The Black Crowes
+01/24/2025 05:20:13,INFO,SpotifyToolsLib.Spotify.SpotifyAdapter,2021.10.08 The Struts
+01/24/2025 05:20:13,INFO,SpotifyToolsLib.Spotify.SpotifyAdapter,2022.03.04 Dream Theater
+01/24/2025 05:20:13,INFO,SpotifyToolsLib.Spotify.SpotifyAdapter,2022.03.12 Slash
+01/24/2025 05:20:13,INFO,SpotifyToolsLib.Spotify.SpotifyAdapter,2023.06.23 Falling In Reverse
+01/24/2025 05:20:13,INFO,SpotifyToolsLib.Spotify.SpotifyAdapter,2023.06.27 Rodrigo y Gabriela
+01/24/2025 05:20:13,INFO,SpotifyToolsLib.Spotify.SpotifyAdapter,2023.10.12 Queen
+01/24/2025 05:20:13,INFO,SpotifyToolsLib.Spotify.SpotifyAdapter,All bangers, all the time
+01/24/2025 05:20:13,INFO,SpotifyToolsLib.Spotify.SpotifyAdapter,Bad Religion
+01/24/2025 05:20:13,INFO,SpotifyToolsLib.Spotify.SpotifyAdapter,Road Songs
+01/24/2025 05:20:13,INFO,SpotifyToolsLib.Spotify.SpotifyAdapter,Queen
+01/24/2025 05:20:13,INFO,SpotifyToolsLib.Spotify.SpotifyAdapter,Metal/Thrash/Core
+01/24/2025 05:20:13,INFO,SpotifyToolsLib.Spotify.SpotifyAdapter,Metallica's Garage Days Originals
+01/24/2025 05:20:13,INFO,SpotifyToolsLib.Spotify.SpotifyAdapter,Dream Theater
+01/24/2025 05:20:13,INFO,SpotifyToolsLib.Spotify.SpotifyAdapter,Metallica Easy on Your Ears
+01/24/2025 05:20:13,INFO,SpotifyToolsLib.Spotify.SpotifyAdapter,Thrash Metal 
+01/24/2025 05:20:13,INFO,SpotifyToolsLib.Spotify.SpotifyAdapter,Sounds of the Seventies: AM Top Twenty
+01/24/2025 05:20:13,INFO,SpotifyToolsLib.Spotify.SpotifyAdapter,Opera
+01/24/2025 05:20:13,INFO,SpotifyToolsLib.Spotify.SpotifyAdapter,Elton John
+01/24/2025 05:20:13,INFO,SpotifyToolsLib.Spotify.SpotifyAdapter,Soft Rock and Pop: 60s, 70s, 80s
+01/24/2025 05:20:13,INFO,SpotifyToolsLib.Spotify.SpotifyAdapter,Ballads
+01/24/2025 05:20:13,INFO,SpotifyToolsLib.Spotify.SpotifyAdapter,Pop music I like
+01/24/2025 05:20:13,INFO,SpotifyToolsLib.Spotify.SpotifyAdapter,Bahamas
+01/24/2025 05:20:13,INFO,SpotifyToolsLib.Spotify.SpotifyAdapter,Best of Broadway
+01/24/2025 05:20:13,INFO,SpotifyToolsLib.Spotify.SpotifyAdapter,TV Themes
+01/24/2025 05:20:13,INFO,SpotifyToolsLib.Spotify.SpotifyAdapter,Hamilton
+01/24/2025 05:20:13,INFO,SpotifyToolsLib.Spotify.SpotifyAdapter,Sanremo
+01/24/2025 05:20:13,INFO,SpotifyToolsLib.Spotify.SpotifyAdapter,Various
+01/24/2025 05:20:13,INFO,SpotifyToolsLib.Spotify.SpotifyAdapter,Elio e Le Storie Tese
+01/24/2025 05:20:23,INFO,SpotifyToolsLib.Spotify.SpotifyAdapter,Creating playlist,Italian Shit
+01/24/2025 05:20:43,INFO,SpotifyToolsLib.Spotify.SpotifyAdapter,Playlists created,Italian Shit [ID: 4516ub2GIvxTWYsmNLd7AZ]
+01/24/2025 05:21:01,DEBUG,SpotifyToolsLib.Spotify.SpotifyAdapter,[1/206] Song added,"Claudio Baglioni - Sabato Pomeriggio"
+01/24/2025 05:21:03,DEBUG,SpotifyToolsLib.Spotify.SpotifyAdapter,[2/206] Song added,"Claudio Baglioni - Ragazza Di Campagna"
+01/24/2025 05:21:04,DEBUG,SpotifyToolsLib.Spotify.SpotifyAdapter,[3/206] Song added,"Claudio Baglioni - Signora Lia"
+01/24/2025 05:21:04,DEBUG,SpotifyToolsLib.Spotify.SpotifyAdapter,[4/206] Song added,"Claudio Baglioni - Con Tutto L'Amore Che Posso"
+01/24/2025 05:21:04,DEBUG,SpotifyToolsLib.Spotify.SpotifyAdapter,[5/206] Song added,"Claudio Baglioni - Questo Piccolo Grande Amore"
+01/24/2025 05:21:05,DEBUG,SpotifyToolsLib.Spotify.SpotifyAdapter,[6/206] Song added,"Claudio Baglioni - Amore Bello"
+01/24/2025 05:21:05,DEBUG,SpotifyToolsLib.Spotify.SpotifyAdapter,[7/206] Song added,"Claudio Baglioni - E Tu"
+01/24/2025 05:21:05,DEBUG,SpotifyToolsLib.Spotify.SpotifyAdapter,[8/206] Song added,"Claudio Baglioni - Sabato Pomeriggio"
+01/24/2025 05:21:06,DEBUG,SpotifyToolsLib.Spotify.SpotifyAdapter,[9/206] Song added,"Enrico Ruggeri - Mistero"
+01/24/2025 05:21:06,INFO,SpotifyToolsLib.Spotify.SpotifyAdapter,[10/206] Song not found,"Eros Ramazzotti - Musica é"
+01/24/2025 05:21:06,DEBUG,SpotifyToolsLib.Spotify.SpotifyAdapter,[11/206] Song added,"Eros Ramazzotti - Terra Promessa"
+01/24/2025 05:21:07,DEBUG,SpotifyToolsLib.Spotify.SpotifyAdapter,[12/206] Song added,"Eros Ramazzotti - Una Storia Importante"
+01/24/2025 05:21:07,DEBUG,SpotifyToolsLib.Spotify.SpotifyAdapter,[13/206] Song added,"Eros Ramazzotti - Adesso Tu"
+01/24/2025 05:21:07,DEBUG,SpotifyToolsLib.Spotify.SpotifyAdapter,[14/206] Song added,"Fabio Concato - Domenica Bestiale"
+01/24/2025 05:21:07,DEBUG,SpotifyToolsLib.Spotify.SpotifyAdapter,[15/206] Song added,"Fabio Concato - Ti Ricordo Ancora"
+01/24/2025 05:21:08,DEBUG,SpotifyToolsLib.Spotify.SpotifyAdapter,[16/206] Song added,"Giorgia - E Poi"
+01/24/2025 05:21:08,DEBUG,SpotifyToolsLib.Spotify.SpotifyAdapter,[17/206] Song added,"Giorgia - Come saprei"
+01/24/2025 05:21:08,DEBUG,SpotifyToolsLib.Spotify.SpotifyAdapter,[18/206] Song added,"Jovanotti - Serenata Rap"
+01/24/2025 05:21:09,DEBUG,SpotifyToolsLib.Spotify.SpotifyAdapter,[19/206] Song added,"Ligabue - Balliamo sul mondo"
+01/24/2025 05:21:09,INFO,SpotifyToolsLib.Spotify.SpotifyAdapter,[20/206] Song not found,"Ligabue - Non e' tempo per noi"
+01/24/2025 05:21:09,INFO,SpotifyToolsLib.Spotify.SpotifyAdapter,[21/206] Song not found,"Lorenzo Jovanotti - Mezzogiorno"
+01/24/2025 05:21:09,INFO,SpotifyToolsLib.Spotify.SpotifyAdapter,[22/206] Song not found,"Lorenzo Jovanotti - Safari"
+01/24/2025 05:21:10,DEBUG,SpotifyToolsLib.Spotify.SpotifyAdapter,[23/206] Song added,"Lucio Battisti - Emozioni"
+01/24/2025 05:21:10,INFO,SpotifyToolsLib.Spotify.SpotifyAdapter,[24/206] Song not found,"Lucio Battisti - Dieci ragazze per me"
+01/24/2025 05:21:10,INFO,SpotifyToolsLib.Spotify.SpotifyAdapter,[25/206] Song not found,"Lucio Battisti - I giardini di marzo"
+01/24/2025 05:21:10,DEBUG,SpotifyToolsLib.Spotify.SpotifyAdapter,[26/206] Song added,"Lucio Battisti - Una giornata uggiosa"
+01/24/2025 05:21:11,DEBUG,SpotifyToolsLib.Spotify.SpotifyAdapter,[27/206] Song added,"Lucio Battisti - Il mio canto libero"
+01/24/2025 05:21:11,INFO,SpotifyToolsLib.Spotify.SpotifyAdapter,[28/206] Song not found,"Nek - Laura Non C'e'"
+01/24/2025 05:21:11,DEBUG,SpotifyToolsLib.Spotify.SpotifyAdapter,[29/206] Song added,"Pooh - Uomini soli"
+01/24/2025 05:21:11,DEBUG,SpotifyToolsLib.Spotify.SpotifyAdapter,[30/206] Song added,"Renato Zero - Mi Vendo"
+01/24/2025 05:21:12,DEBUG,SpotifyToolsLib.Spotify.SpotifyAdapter,[31/206] Song added,"Umberto Tozzi - Donna Amante Mia"
+01/24/2025 05:21:12,DEBUG,SpotifyToolsLib.Spotify.SpotifyAdapter,[32/206] Song added,"Umberto Tozzi - Ti Amo"
+01/24/2025 05:21:12,DEBUG,SpotifyToolsLib.Spotify.SpotifyAdapter,[33/206] Song added,"Umberto Tozzi - Tu"
+01/24/2025 05:21:13,DEBUG,SpotifyToolsLib.Spotify.SpotifyAdapter,[34/206] Song added,"Umberto Tozzi - Gloria"
+01/24/2025 05:21:13,DEBUG,SpotifyToolsLib.Spotify.SpotifyAdapter,[35/206] Song added,"Umberto Tozzi - Qualcosa qualcuno"
+01/24/2025 05:21:13,INFO,SpotifyToolsLib.Spotify.SpotifyAdapter,[36/206] Song not found,"Umberto Tozzi - Alleluia se"
+01/24/2025 05:21:13,DEBUG,SpotifyToolsLib.Spotify.SpotifyAdapter,[37/206] Song added,"Umberto Tozzi - Mamma maremma"
+01/24/2025 05:21:14,DEBUG,SpotifyToolsLib.Spotify.SpotifyAdapter,[38/206] Song added,"Umberto Tozzi - Notte chiara"
+01/24/2025 05:21:14,DEBUG,SpotifyToolsLib.Spotify.SpotifyAdapter,[39/206] Song added,"Umberto Tozzi - Fatto cosi"
+01/24/2025 05:21:14,DEBUG,SpotifyToolsLib.Spotify.SpotifyAdapter,[40/206] Song added,"Umberto Tozzi - Stella Stai"
+01/24/2025 05:21:14,DEBUG,SpotifyToolsLib.Spotify.SpotifyAdapter,[41/206] Song added,"Umberto Tozzi - Dimmi Di No"
+01/24/2025 05:21:15,DEBUG,SpotifyToolsLib.Spotify.SpotifyAdapter,[42/206] Song added,"Umberto Tozzi - Notte Rosa"
+01/24/2025 05:21:15,DEBUG,SpotifyToolsLib.Spotify.SpotifyAdapter,[43/206] Song added,"Umberto Tozzi - Eva"
+01/24/2025 05:21:15,INFO,SpotifyToolsLib.Spotify.SpotifyAdapter,[44/206] Song not found,"Umberto Tozzi - Hurrah!"
+01/24/2025 05:21:15,DEBUG,SpotifyToolsLib.Spotify.SpotifyAdapter,[45/206] Song added,"Umberto Tozzi - Se Non Avessi Te"
+01/24/2025 05:21:16,INFO,SpotifyToolsLib.Spotify.SpotifyAdapter,[46/206] Song not found,"Umberto Tozzi - Qualcosa Qualcuno ~ Donna amante mia ~ Dimentica Dimentica ~ Io cammenerò ~ Eva ~ Tu Sei di Me (Live)"
+01/24/2025 05:21:16,INFO,SpotifyToolsLib.Spotify.SpotifyAdapter,[47/206] Song not found,"Umberto Tozzi - Stella Stai (Live)"
+01/24/2025 05:21:16,INFO,SpotifyToolsLib.Spotify.SpotifyAdapter,[48/206] Song not found,"Umberto Tozzi - Gloria (Live)"
+01/24/2025 05:21:16,DEBUG,SpotifyToolsLib.Spotify.SpotifyAdapter,[49/206] Song added,"Umberto Tozzi - Non va che volo"
+01/24/2025 05:21:16,INFO,SpotifyToolsLib.Spotify.SpotifyAdapter,[50/206] Song not found,"Umberto Tozzi - Si puo' dare di piu' (con Enrico Ruggeri e Gianni Morandi)"
+01/24/2025 05:26:34,DEBUG,SpotifyToolsLib.Spotify.SpotifyAdapter,[51/206] Song added,"Umberto Tozzi - Lei"
+01/24/2025 05:26:35,DEBUG,SpotifyToolsLib.Spotify.SpotifyAdapter,[52/206] Song added,"Umberto Tozzi - Aria e cielo"
+01/24/2025 05:26:35,DEBUG,SpotifyToolsLib.Spotify.SpotifyAdapter,[53/206] Song added,"Umberto Tozzi - Un'altra vita"
+01/24/2025 05:26:35,DEBUG,SpotifyToolsLib.Spotify.SpotifyAdapter,[54/206] Song added,"Umberto Tozzi - Le parole"
+01/24/2025 05:26:35,DEBUG,SpotifyToolsLib.Spotify.SpotifyAdapter,[55/206] Song added,"Umberto Tozzi - Cerco Ancora Te"
+01/24/2025 05:26:36,DEBUG,SpotifyToolsLib.Spotify.SpotifyAdapter,[56/206] Song added,"Umberto Tozzi - Sorridi amore"
+01/24/2025 05:26:36,DEBUG,SpotifyToolsLib.Spotify.SpotifyAdapter,[57/206] Song added,"Vasco Rossi - La Nostra Relazione"
+01/24/2025 05:26:36,DEBUG,SpotifyToolsLib.Spotify.SpotifyAdapter,[58/206] Song added,"Vasco Rossi - Albachiara"
+01/24/2025 05:26:36,DEBUG,SpotifyToolsLib.Spotify.SpotifyAdapter,[59/206] Song added,"Vasco Rossi - Siamo Solo Noi"
+01/24/2025 05:26:37,DEBUG,SpotifyToolsLib.Spotify.SpotifyAdapter,[60/206] Song added,"Vasco Rossi - Ogni Volta"
+01/24/2025 05:26:37,DEBUG,SpotifyToolsLib.Spotify.SpotifyAdapter,[61/206] Song added,"Vasco Rossi - Bollicine"
+01/24/2025 05:26:37,DEBUG,SpotifyToolsLib.Spotify.SpotifyAdapter,[62/206] Song added,"Vasco Rossi - Una Canzone Per Te"
+01/24/2025 05:26:38,DEBUG,SpotifyToolsLib.Spotify.SpotifyAdapter,[63/206] Song added,"Vasco Rossi - Vita Spericolata"
+01/24/2025 05:26:38,DEBUG,SpotifyToolsLib.Spotify.SpotifyAdapter,[64/206] Song added,"Vasco Rossi - Va Bene, Va Bene Così"
+01/24/2025 05:26:38,DEBUG,SpotifyToolsLib.Spotify.SpotifyAdapter,[65/206] Song added,"Vasco Rossi - Cosa Succede In Città"
+01/24/2025 05:26:38,DEBUG,SpotifyToolsLib.Spotify.SpotifyAdapter,[66/206] Song added,"Vasco Rossi - Vivere Una Favola"
+01/24/2025 05:26:39,DEBUG,SpotifyToolsLib.Spotify.SpotifyAdapter,[67/206] Song added,"Vasco Rossi - Ridere Di Te"
+01/24/2025 05:26:39,DEBUG,SpotifyToolsLib.Spotify.SpotifyAdapter,[68/206] Song added,"Vasco Rossi - Brava Giulia"
+01/24/2025 05:26:39,DEBUG,SpotifyToolsLib.Spotify.SpotifyAdapter,[69/206] Song added,"Zucchero - Senza Una Donna"
+01/24/2025 05:26:40,DEBUG,SpotifyToolsLib.Spotify.SpotifyAdapter,[70/206] Song added,"Zucchero - Diavolo In Me"
+01/24/2025 05:26:40,INFO,SpotifyToolsLib.Spotify.SpotifyAdapter,[71/206] Song not found,"Laura Pausini - Surrender"
+01/24/2025 05:26:40,DEBUG,SpotifyToolsLib.Spotify.SpotifyAdapter,[72/206] Song added,"Laura Pausini - La Solitudine"
+01/24/2025 05:26:40,INFO,SpotifyToolsLib.Spotify.SpotifyAdapter,[73/206] Song not found,"Laura Pausini - Perché Non Torna Più"
+01/24/2025 05:26:41,INFO,SpotifyToolsLib.Spotify.SpotifyAdapter,[74/206] Song not found,"Laura Pausini - Primavera in Anticipo (It Is My Song) (with James Blunt)"
+01/24/2025 05:26:41,INFO,SpotifyToolsLib.Spotify.SpotifyAdapter,[75/206] Song not found,"Laura Pausini - Bellissimo Così"
+01/24/2025 05:26:41,DEBUG,SpotifyToolsLib.Spotify.SpotifyAdapter,[76/206] Song added,"Laura Pausini - Il nostro amore quotidiano"
+01/24/2025 05:26:41,DEBUG,SpotifyToolsLib.Spotify.SpotifyAdapter,[77/206] Song added,"Laura Pausini - Se non te"
+01/24/2025 05:26:42,DEBUG,SpotifyToolsLib.Spotify.SpotifyAdapter,[78/206] Song added,"Lucio Battisti - 29 Settembre"
+01/24/2025 05:26:42,DEBUG,SpotifyToolsLib.Spotify.SpotifyAdapter,[79/206] Song added,"Lucio Battisti - Mi Ritorni In Mente"
+01/24/2025 05:26:42,DEBUG,SpotifyToolsLib.Spotify.SpotifyAdapter,[80/206] Song added,"Matia Bazar - Vacanze Romane"
+01/24/2025 05:26:43,DEBUG,SpotifyToolsLib.Spotify.SpotifyAdapter,[81/206] Song added,"Litfiba - El Diablo"
+01/24/2025 05:26:43,DEBUG,SpotifyToolsLib.Spotify.SpotifyAdapter,[82/206] Song added,"Litfiba - Gioconda"
+01/24/2025 05:26:43,DEBUG,SpotifyToolsLib.Spotify.SpotifyAdapter,[83/206] Song added,"Litfiba - Maudit"
+01/24/2025 05:26:43,DEBUG,SpotifyToolsLib.Spotify.SpotifyAdapter,[84/206] Song added,"Litfiba - Fata Morgana"
+01/24/2025 05:26:44,INFO,SpotifyToolsLib.Spotify.SpotifyAdapter,[85/206] Song not found,"PFM - Celebration"
+01/24/2025 05:26:44,INFO,SpotifyToolsLib.Spotify.SpotifyAdapter,[86/206] Song not found,"PFM - Impressioni Di Settembre"
+01/24/2025 05:26:44,DEBUG,SpotifyToolsLib.Spotify.SpotifyAdapter,[87/206] Song added,"Vasco Rossi - Delusa"
+01/24/2025 05:26:44,DEBUG,SpotifyToolsLib.Spotify.SpotifyAdapter,[88/206] Song added,"Vasco Rossi - Domenica Lunatica"
+01/24/2025 05:26:45,DEBUG,SpotifyToolsLib.Spotify.SpotifyAdapter,[89/206] Song added,"Vasco Rossi - Sono Ancora In Coma"
+01/24/2025 05:26:45,INFO,SpotifyToolsLib.Spotify.SpotifyAdapter,[90/206] Song not found,"Lunapop - 50 Special"
+01/24/2025 05:26:45,DEBUG,SpotifyToolsLib.Spotify.SpotifyAdapter,[91/206] Song added,"Vasco Rossi - La Noia"
+01/24/2025 05:26:46,DEBUG,SpotifyToolsLib.Spotify.SpotifyAdapter,[92/206] Song added,"Vasco Rossi - Canzone"
+01/24/2025 05:26:46,DEBUG,SpotifyToolsLib.Spotify.SpotifyAdapter,[93/206] Song added,"Vasco Rossi - Dimentichiamoci Questa Città"
+01/24/2025 05:26:46,DEBUG,SpotifyToolsLib.Spotify.SpotifyAdapter,[94/206] Song added,"Laura Pausini - 200 note"
+01/24/2025 05:26:46,DEBUG,SpotifyToolsLib.Spotify.SpotifyAdapter,[95/206] Song added,"Marco Mengoni - Due Vite"
+01/24/2025 05:26:46,DEBUG,SpotifyToolsLib.Spotify.SpotifyAdapter,[96/206] Song added,"Laura Pausini - Non ho mai smesso"
+01/24/2025 05:26:47,DEBUG,SpotifyToolsLib.Spotify.SpotifyAdapter,[97/206] Song added,"Laura Pausini - Mille Braccia"
+01/24/2025 05:26:47,DEBUG,SpotifyToolsLib.Spotify.SpotifyAdapter,[98/206] Song added,"Laura Pausini - La Geografia Del Mio Cammino"
+01/24/2025 05:26:47,DEBUG,SpotifyToolsLib.Spotify.SpotifyAdapter,[99/206] Song added,"Laura Pausini - Io Canto [Riccardo Cocciante]"
+01/24/2025 05:26:48,DEBUG,SpotifyToolsLib.Spotify.SpotifyAdapter,[100/206] Song added,"Adriano Celentano - Si È Spento Il Sole"
+01/24/2025 05:26:48,INFO,SpotifyToolsLib.Spotify.SpotifyAdapter,[101/206] Song not found,"Adriano Celentano - Yuppi du"
+01/24/2025 05:26:48,DEBUG,SpotifyToolsLib.Spotify.SpotifyAdapter,[102/206] Song added,"Adriano Celentano - Il ragazzo della via GLuck"
+01/24/2025 05:26:49,DEBUG,SpotifyToolsLib.Spotify.SpotifyAdapter,[103/206] Song added,"Adriano Celentano - Azzurro"
+01/24/2025 05:26:49,DEBUG,SpotifyToolsLib.Spotify.SpotifyAdapter,[104/206] Song added,"Adriano Celentano - Svalutation"
+01/24/2025 05:26:49,DEBUG,SpotifyToolsLib.Spotify.SpotifyAdapter,[105/206] Song added,"Alan Sorrenti - Figli Delle Stelle"
+01/24/2025 05:26:50,DEBUG,SpotifyToolsLib.Spotify.SpotifyAdapter,[106/206] Song added,"Alan Sorrenti - Tu Sei L'unica Donna Per Me"
+01/24/2025 05:26:50,INFO,SpotifyToolsLib.Spotify.SpotifyAdapter,[107/206] Song not found,"Albano & Romina Power - Felicità"
+01/24/2025 05:26:50,DEBUG,SpotifyToolsLib.Spotify.SpotifyAdapter,[108/206] Song added,"Alberto Camerini - Tanz Bambolina"
+01/24/2025 05:26:50,DEBUG,SpotifyToolsLib.Spotify.SpotifyAdapter,[109/206] Song added,"Aleandro Baldi - Passerà"
+01/24/2025 05:26:51,INFO,SpotifyToolsLib.Spotify.SpotifyAdapter,[110/206] Song not found,"Baccini & Ladri Di Biciclette - Sotto Questo Sole"
+01/24/2025 05:26:51,INFO,SpotifyToolsLib.Spotify.SpotifyAdapter,[111/206] Song not found,"Biagio Antonacci - Non è mai stato subito"
+01/24/2025 05:26:51,DEBUG,SpotifyToolsLib.Spotify.SpotifyAdapter,[112/206] Song added,"Biagio Antonacci - Vivimi"
+01/24/2025 05:26:51,DEBUG,SpotifyToolsLib.Spotify.SpotifyAdapter,[113/206] Song added,"Claudio Baglioni - Isolina"
+01/24/2025 05:26:52,DEBUG,SpotifyToolsLib.Spotify.SpotifyAdapter,[114/206] Song added,"Claudio Baglioni - Lacrime Di Marzo"
+01/24/2025 05:26:52,INFO,SpotifyToolsLib.Spotify.SpotifyAdapter,[115/206] Song not found,"Claudio Baglioni - Ci Fosse Lei"
+01/24/2025 05:26:52,DEBUG,SpotifyToolsLib.Spotify.SpotifyAdapter,[116/206] Song added,"Claudio Baglioni - Via"
+01/24/2025 05:26:52,DEBUG,SpotifyToolsLib.Spotify.SpotifyAdapter,[117/206] Song added,"Claudio Baglioni - Strada Facendo"
+01/24/2025 05:26:53,DEBUG,SpotifyToolsLib.Spotify.SpotifyAdapter,[118/206] Song added,"Claudio Baglioni - Fotografie"
+01/24/2025 05:26:53,DEBUG,SpotifyToolsLib.Spotify.SpotifyAdapter,[119/206] Song added,"Claudio Baglioni - I Vecchi"
+01/24/2025 05:26:53,DEBUG,SpotifyToolsLib.Spotify.SpotifyAdapter,[120/206] Song added,"Claudio Baglioni - Avrai"
+01/24/2025 05:26:53,INFO,SpotifyToolsLib.Spotify.SpotifyAdapter,[121/206] Song not found,"Claudio Baglioni - La Vita E' Adesso"
+01/24/2025 05:26:54,DEBUG,SpotifyToolsLib.Spotify.SpotifyAdapter,[122/206] Song added,"Claudio Baglioni - Amori In Corso"
+01/24/2025 05:26:54,DEBUG,SpotifyToolsLib.Spotify.SpotifyAdapter,[123/206] Song added,"Claudio Baglioni - Dagli Il Via"
+01/24/2025 05:26:54,DEBUG,SpotifyToolsLib.Spotify.SpotifyAdapter,[124/206] Song added,"Claudio Baglioni - Mille Giorni Di Te E Di Me"
+01/24/2025 05:26:55,DEBUG,SpotifyToolsLib.Spotify.SpotifyAdapter,[125/206] Song added,"Claudio Baglioni - Bolero"
+01/24/2025 05:26:55,INFO,SpotifyToolsLib.Spotify.SpotifyAdapter,[126/206] Song not found,"Dori Ghezzi - Margherita Non Lo Sa"
+01/24/2025 05:26:55,DEBUG,SpotifyToolsLib.Spotify.SpotifyAdapter,[127/206] Song added,"Edoardo Bennato - Non farti cadere le braccia"
+01/24/2025 05:26:55,INFO,SpotifyToolsLib.Spotify.SpotifyAdapter,[128/206] Song not found,"Edoardo Bennato - Una settimana... un giorno"
+01/24/2025 05:26:55,DEBUG,SpotifyToolsLib.Spotify.SpotifyAdapter,[129/206] Song added,"Edoardo Bennato - Un giorno credi"
+01/24/2025 05:26:56,DEBUG,SpotifyToolsLib.Spotify.SpotifyAdapter,[130/206] Song added,"Edoardo Bennato - Meno male che adesso non c'è Nerone"
+01/24/2025 05:26:56,DEBUG,SpotifyToolsLib.Spotify.SpotifyAdapter,[131/206] Song added,"Edoardo Bennato - Il Gatto e la Volpe"
+01/24/2025 05:26:56,INFO,SpotifyToolsLib.Spotify.SpotifyAdapter,[132/206] Song not found,"Edoardo Bennato - Ma che sara'"
+01/24/2025 05:26:57,DEBUG,SpotifyToolsLib.Spotify.SpotifyAdapter,[133/206] Song added,"Edoardo Bennato - L'isola che non c'e'"
+01/24/2025 05:26:57,DEBUG,SpotifyToolsLib.Spotify.SpotifyAdapter,[134/206] Song added,"Edoardo Bennato - Sono solo canzonette"
+01/24/2025 05:26:57,INFO,SpotifyToolsLib.Spotify.SpotifyAdapter,[135/206] Song not found,"Edoardo Bennato - Ogni favola è un gioco"
+01/24/2025 05:26:57,INFO,SpotifyToolsLib.Spotify.SpotifyAdapter,[136/206] Song not found,"Edoardo Bennato - Era una festa"
+01/24/2025 05:26:57,DEBUG,SpotifyToolsLib.Spotify.SpotifyAdapter,[137/206] Song added,"Edoardo Bennato - Tu vuoi L'America"
+01/24/2025 05:26:58,DEBUG,SpotifyToolsLib.Spotify.SpotifyAdapter,[138/206] Song added,"Edoardo Bennato - Viva la mamma"
+01/24/2025 05:26:58,DEBUG,SpotifyToolsLib.Spotify.SpotifyAdapter,[139/206] Song added,"Fabio Concato - Fiore Di Maggio"
+01/24/2025 05:26:58,DEBUG,SpotifyToolsLib.Spotify.SpotifyAdapter,[140/206] Song added,"Fabio Concato - Guido Piano"
+01/24/2025 05:26:58,DEBUG,SpotifyToolsLib.Spotify.SpotifyAdapter,[141/206] Song added,"Fiordaliso - Non Voglio Mica La Luna"
+01/24/2025 05:26:59,DEBUG,SpotifyToolsLib.Spotify.SpotifyAdapter,[142/206] Song added,"Francesco De Gregori - Rimmel"
+01/24/2025 05:26:59,DEBUG,SpotifyToolsLib.Spotify.SpotifyAdapter,[143/206] Song added,"Franco Battiato - Bandiera Bianca"
+01/24/2025 05:26:59,INFO,SpotifyToolsLib.Spotify.SpotifyAdapter,[144/206] Song not found,"Franco Battiato - Cuccuruccucù"
+01/24/2025 05:26:59,INFO,SpotifyToolsLib.Spotify.SpotifyAdapter,[145/206] Song not found,"Franco Battiato - Centro di gravità permanente  (Live)"
+01/24/2025 05:27:00,DEBUG,SpotifyToolsLib.Spotify.SpotifyAdapter,[146/206] Song added,"Giuni Russo - Un' Estate Al Mare"
+01/24/2025 05:27:00,INFO,SpotifyToolsLib.Spotify.SpotifyAdapter,[147/206] Song not found,"Ivano Fossati - La Mia Banda Suona Il Rock"
+01/24/2025 05:27:00,DEBUG,SpotifyToolsLib.Spotify.SpotifyAdapter,[148/206] Song added,"Loredana Bertè - Non Sono Una Signora"
+01/24/2025 05:27:00,DEBUG,SpotifyToolsLib.Spotify.SpotifyAdapter,[149/206] Song added,"Loretta Goggi - Maledetta Primavera"
+01/24/2025 05:27:01,DEBUG,SpotifyToolsLib.Spotify.SpotifyAdapter,[150/206] Song added,"Lucio Battisti - Un'avventura"
+01/24/2025 05:27:01,DEBUG,SpotifyToolsLib.Spotify.SpotifyAdapter,[151/206] Song added,"Lucio Battisti - Balla Linda"
+01/24/2025 05:27:01,INFO,SpotifyToolsLib.Spotify.SpotifyAdapter,[152/206] Song not found,"Lucio Battisti - Acqua azzurra Acqua chiara"
+01/24/2025 05:27:02,INFO,SpotifyToolsLib.Spotify.SpotifyAdapter,[153/206] Song not found,"Lucio Battisti - La canzone del sole"
+01/24/2025 05:27:02,INFO,SpotifyToolsLib.Spotify.SpotifyAdapter,[154/206] Song not found,"Lucio Battisti - Si viaggiare"
+01/24/2025 05:27:02,INFO,SpotifyToolsLib.Spotify.SpotifyAdapter,[155/206] Song not found,"Lucio Battisti - Una donna per amico"
+01/24/2025 05:27:02,INFO,SpotifyToolsLib.Spotify.SpotifyAdapter,[156/206] Song not found,"Lucio Battisti - Fiori Rosa Fiori Di Pesco"
+01/24/2025 05:27:03,DEBUG,SpotifyToolsLib.Spotify.SpotifyAdapter,[157/206] Song added,"Lucio Battisti - E Penso A Te"
+01/24/2025 05:27:03,INFO,SpotifyToolsLib.Spotify.SpotifyAdapter,[158/206] Song not found,"Lucio Battisti - Ancora Tu"
+01/24/2025 05:27:03,INFO,SpotifyToolsLib.Spotify.SpotifyAdapter,[159/206] Song not found,"Lucio Battisti - Non E' Francesca"
+01/24/2025 05:27:03,DEBUG,SpotifyToolsLib.Spotify.SpotifyAdapter,[160/206] Song added,"Lucio Battisti - Pensieri E Parole"
+01/24/2025 05:27:04,DEBUG,SpotifyToolsLib.Spotify.SpotifyAdapter,[161/206] Song added,"Lucio Battisti - Questo Amore"
+01/24/2025 05:27:04,DEBUG,SpotifyToolsLib.Spotify.SpotifyAdapter,[162/206] Song added,"Marco Ferradini - Teorema"
+01/24/2025 05:27:04,DEBUG,SpotifyToolsLib.Spotify.SpotifyAdapter,[163/206] Song added,"Matia Bazar - Ti Sento"
+01/24/2025 05:27:04,INFO,SpotifyToolsLib.Spotify.SpotifyAdapter,[164/206] Song not found,"Matia Bazar - Da Qui A..."
+01/24/2025 05:27:05,INFO,SpotifyToolsLib.Spotify.SpotifyAdapter,[165/206] Song not found,"Matia Bazar - Amami"
+01/24/2025 05:27:05,DEBUG,SpotifyToolsLib.Spotify.SpotifyAdapter,[166/206] Song added,"Matia Bazar - Aristocratica"
+01/24/2025 05:27:05,INFO,SpotifyToolsLib.Spotify.SpotifyAdapter,[167/206] Song not found,"Matia Bazar - Elettroshock"
+01/24/2025 05:27:05,DEBUG,SpotifyToolsLib.Spotify.SpotifyAdapter,[168/206] Song added,"Mina - Nessuno"
+01/24/2025 05:27:06,INFO,SpotifyToolsLib.Spotify.SpotifyAdapter,[169/206] Song not found,"Morandi Tozzi Ruggeri - Si Puo' Dare Di Piu'"
+01/24/2025 05:27:06,INFO,SpotifyToolsLib.Spotify.SpotifyAdapter,[170/206] Song not found,"PFM - Rock In LA"
+01/24/2025 05:27:06,INFO,SpotifyToolsLib.Spotify.SpotifyAdapter,[171/206] Song not found,"PFM - Chi Ha Paura Della Notte"
+01/24/2025 05:27:06,DEBUG,SpotifyToolsLib.Spotify.SpotifyAdapter,[172/206] Song added,"Pino Daniele - Quanno Chiove"
+01/24/2025 05:27:07,INFO,SpotifyToolsLib.Spotify.SpotifyAdapter,[173/206] Song not found,"Pooh - Chi Fermera' La Musica (Live)"
+01/24/2025 05:27:07,DEBUG,SpotifyToolsLib.Spotify.SpotifyAdapter,[174/206] Song added,"Pooh - Piccola Katy (Live)"
+01/24/2025 05:27:07,DEBUG,SpotifyToolsLib.Spotify.SpotifyAdapter,[175/206] Song added,"Pooh - Tanta Voglia di Lei (Live)"
+01/24/2025 05:27:08,DEBUG,SpotifyToolsLib.Spotify.SpotifyAdapter,[176/206] Song added,"Pooh - Pensiero (Live)"
+01/24/2025 05:27:08,DEBUG,SpotifyToolsLib.Spotify.SpotifyAdapter,[177/206] Song added,"Pooh - Noi Due Nel Mondo E Nell'anima (Live)"
+01/24/2025 05:27:08,INFO,SpotifyToolsLib.Spotify.SpotifyAdapter,[178/206] Song not found,"Pooh - Dove comincia il sole (I parte)"
+01/24/2025 05:27:08,DEBUG,SpotifyToolsLib.Spotify.SpotifyAdapter,[179/206] Song added,"Pooh - L'aquila e il falco"
+01/24/2025 05:27:08,DEBUG,SpotifyToolsLib.Spotify.SpotifyAdapter,[180/206] Song added,"Pooh - Isabel"
+01/24/2025 05:27:09,DEBUG,SpotifyToolsLib.Spotify.SpotifyAdapter,[181/206] Song added,"Pupo - Su Di Noi"
+01/24/2025 05:27:09,DEBUG,SpotifyToolsLib.Spotify.SpotifyAdapter,[182/206] Song added,"Renato Zero - Triangolo"
+01/24/2025 05:27:09,DEBUG,SpotifyToolsLib.Spotify.SpotifyAdapter,[183/206] Song added,"Renato Zero - Baratto"
+01/24/2025 05:27:09,INFO,SpotifyToolsLib.Spotify.SpotifyAdapter,[184/206] Song not found,"Renato Zero - Grattacieli di Sale"
+01/24/2025 05:27:10,INFO,SpotifyToolsLib.Spotify.SpotifyAdapter,[185/206] Song not found,"Renato Zero - Carrozzone"
+01/24/2025 05:27:10,DEBUG,SpotifyToolsLib.Spotify.SpotifyAdapter,[186/206] Song added,"Renato Zero - Uomo, No"
+01/24/2025 05:27:10,DEBUG,SpotifyToolsLib.Spotify.SpotifyAdapter,[187/206] Song added,"Riccardo Cocciante - Margherita"
+01/24/2025 05:27:10,DEBUG,SpotifyToolsLib.Spotify.SpotifyAdapter,[188/206] Song added,"Riccardo Cocciante - Cervo A Primavera"
+01/24/2025 05:27:11,DEBUG,SpotifyToolsLib.Spotify.SpotifyAdapter,[189/206] Song added,"Riccardo Cocciante - Bella Senz'anima"
+01/24/2025 05:27:11,INFO,SpotifyToolsLib.Spotify.SpotifyAdapter,[190/206] Song not found,"Riccardo Cocciante - Se Stiamo Insieme"
+01/24/2025 05:27:11,INFO,SpotifyToolsLib.Spotify.SpotifyAdapter,[191/206] Song not found,"Riccardo Cocciante - Questione Di Feeling"
+01/24/2025 05:27:11,DEBUG,SpotifyToolsLib.Spotify.SpotifyAdapter,[192/206] Song added,"Righeira - L'Estate Sta Finendo"
+01/24/2025 05:27:12,DEBUG,SpotifyToolsLib.Spotify.SpotifyAdapter,[193/206] Song added,"Righeira - No Tengo Dinero"
+01/24/2025 05:27:12,DEBUG,SpotifyToolsLib.Spotify.SpotifyAdapter,[194/206] Song added,"Righeira - Vamos A La Playa"
+01/24/2025 05:27:12,INFO,SpotifyToolsLib.Spotify.SpotifyAdapter,[195/206] Song not found,"Umberto Tozzi - Io Camminero"
+01/24/2025 05:27:12,DEBUG,SpotifyToolsLib.Spotify.SpotifyAdapter,[196/206] Song added,"Umberto Tozzi - Tu Sei Di Me"
+01/24/2025 05:27:13,DEBUG,SpotifyToolsLib.Spotify.SpotifyAdapter,[197/206] Song added,"Umberto Tozzi - Zingaro"
+01/24/2025 05:27:13,DEBUG,SpotifyToolsLib.Spotify.SpotifyAdapter,[198/206] Song added,"Umberto Tozzi - A Cosa Servono Le Mani"
+01/24/2025 05:27:13,DEBUG,SpotifyToolsLib.Spotify.SpotifyAdapter,[199/206] Song added,"Umberto Tozzi - Immensamente"
+01/24/2025 05:27:13,INFO,SpotifyToolsLib.Spotify.SpotifyAdapter,[200/206] Song not found,"Umberto Tozzi - Gente di mare (con Raf)"
+01/24/2025 05:27:14,DEBUG,SpotifyToolsLib.Spotify.SpotifyAdapter,[201/206] Song added,"Vasco Rossi - Anima Fragile"
+01/24/2025 05:27:14,DEBUG,SpotifyToolsLib.Spotify.SpotifyAdapter,[202/206] Song added,"Vasco Rossi - Splendida Giornata"
+01/24/2025 05:27:14,DEBUG,SpotifyToolsLib.Spotify.SpotifyAdapter,[203/206] Song added,"Vasco Rossi - Una Nuova Canzone Per Lei"
+01/24/2025 05:27:15,INFO,SpotifyToolsLib.Spotify.SpotifyAdapter,[204/206] Song not found,"Vasco Rossi - Lunedi"
+01/24/2025 05:27:15,INFO,SpotifyToolsLib.Spotify.SpotifyAdapter,[205/206] Song not found,"Vasco Rossi - Liberi Liberi"
+01/24/2025 05:27:15,INFO,SpotifyTools.Program,Donzo. This was fun.

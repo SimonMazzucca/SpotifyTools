@@ -73,6 +73,19 @@ namespace SpotifyToolsLib.Spotify
             CheckForResponseErrors(json);
         }
 
+        /// <summary>
+        /// API: https://developer.spotify.com/documentation/web-api/reference/#/operations/get-playlists-tracks
+        /// </summary>
+        /// <param name="playlist"></param>
+        public void LoadPlaylist(SpotifyPlaylist playlist)
+        {
+            string url = string.Format("https://api.spotify.com/v1/playlists/{0}/tracks", playlist.id);
+            string json = HttpHelper.Get(url, this.AuthenticationToken).Result;
+            CheckForResponseErrors(json);
+        }
+
+
+
         public bool AddSongsToPlaylist(SpotifyPlaylist playlist, IList<Song> songs)
         {
             int requests = (songs.Count - 1) / SONGS_PER_REQ + 1;
